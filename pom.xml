@@ -22,7 +22,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.checkstyle.version>3.0.0</maven.checkstyle.version>
         <checkstyle.file.path>checkstyle.xml</checkstyle.file.path>
-        <checkstyle.latest.version>8.19</checkstyle.latest.version>
+        <checkstyle.latest.version>8.29</checkstyle.latest.version>
         <pmdVersion>6.12.0</pmdVersion>
         <cucumber.report.version>4.8.0</cucumber.report.version>
         <cucumber.version>4.7.1</cucumber.version>
