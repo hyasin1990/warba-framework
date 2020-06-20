@@ -8,7 +8,6 @@ import lombok.extern.log4j.Log4j2;
 // tags = {"@CreateHassala"
 //   +" or @RemoveSaveAs"
 
-// git hub edit
 @CucumberOptions(
         features = "src/test/java/features",
         tags = {
