@@ -22,7 +22,6 @@ import org.junit.runner.RunWith;
 //                + " or @AddAutomated"
 //                + " or @AddSweep"
                 //  + " or @AddKharda"
-//                + " or @RemoveSaveAs"
 //                + " or @RemoveAutomated"
 //                + " or @RemoveSweep"
                 // + " or @Withdraw"s
@@ -30,7 +29,6 @@ import org.junit.runner.RunWith;
                 // + " or @BreaZerokHassala"
                 // + " or @Topup"
                 //  + " or @ManageHassala"
-
 //                + " or @BreakZeroHassala"
         })
 //tags = {"@WithTable"}
