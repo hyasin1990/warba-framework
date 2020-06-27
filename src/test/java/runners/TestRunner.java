@@ -8,11 +8,11 @@ import lombok.extern.log4j.Log4j2;
 // tags = {"@CreateHassala"
 //   +" or @RemoveSaveAs"
 
-
+// Changes to be ignores
 @CucumberOptions(
         features = "src/test/java/features",
         tags = {
-                "@AddKharda"
+                "@RemoveKharda"
 //                + " or @Topup"
 //                + " or @ManageHassala"
 //               + " or @Withdraw"

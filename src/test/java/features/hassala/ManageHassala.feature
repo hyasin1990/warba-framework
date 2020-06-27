@@ -27,7 +27,7 @@ Feature: This feature is for managing up any created hassala
     Given user clicks on edit link
     When user clicks on hassala image to change it
     And user clicks on choose from camera roll to upload Hassala photo
-    And user allows access photos permission if displayed
+    And user allows access permission if displayed
     And user clicks on all photos tab from photos gallery
     And user selects any photo to replace the current
     Then clicks on choose to confirm it
@@ -35,7 +35,6 @@ Feature: This feature is for managing up any created hassala
     Then user enters new hassala name as "Automated Edit"
     When user clicks on goal category icon
     And user selects goal category as "Car"
-
     And user saves his changes
     When user clicks on close button to close manage screen
     Then user clicks on close button under hassala

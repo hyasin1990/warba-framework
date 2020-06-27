@@ -28,7 +28,7 @@ Feature: As a user, I should be able to create new Hassala
     And user selects goal category as "<Category>"
     And user enters hassala name as "<Hassala name>"
     And user clicks on choose from camera roll
-    And user allows access photos permission if displayed
+    And user allows access permission if displayed
     And user clicks on all photos tab from photos gallery
     And user selects any photo
     Then clicks on choose to confirm it

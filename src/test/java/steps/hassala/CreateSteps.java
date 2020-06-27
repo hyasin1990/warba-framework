@@ -136,7 +136,7 @@ public class CreateSteps {
         }
     }
 
-    @And("user allows access photos permission if displayed")
+    @And("user allows access permission if displayed")
     public void user_Allows_Access_Permission() throws IOException {
         if (get("TESTING_PLATFORM").equals("IOS")) {
             util.clickOnElementIfDisplayed(allowPhAccess);
