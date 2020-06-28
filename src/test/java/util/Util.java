@@ -24,6 +24,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static elements.hassala.BreakElements.hssalatSection;
 import static elements.hassala.CreateElements.*;
 import static elements.hassala.CreateElements.nineKey;
+import static elements.jameya.CreateJameyaElements.*;
 import static util.GeneralUtil.get;
 
 import java.io.FileInputStream;
@@ -537,6 +538,15 @@ public class Util {
             weeklyElement.click();
         } else if (frequency.equals("Monthly")){
             monthlyelement.click();
+        }
+    }
+
+    public void selectPurpose(String userPurpose)
+    {
+     String standPurpose=purposePicker.get(0).getAttribute("value");
+        while (!standPurpose.equals(userPurpose))
+        {
+            nextScroll(purposePicker,0);
         }
     }
 

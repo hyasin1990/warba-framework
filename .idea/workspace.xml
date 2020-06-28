@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4c57cd-9f32-4d81-8026-e1f0492a5806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/jameya/CreateJameya.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09b83e21476812c540ecda38ed86fef5c627971a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09b83e21476812c540ecda38ed86fef5c627971a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/929541cd44faa8ee39af2878c68fee4fccdd45a4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/929541cd44faa8ee39af2878c68fee4fccdd45a4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testing/whileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testing/whileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Reports/htmlreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Reports/htmlreport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/CreateHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/hassala/CreateHassala.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/ManageHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/hassala/ManageHassala.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/login/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/login/LoginElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/jameya/CreateJameya.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/jameya/CreateJameya.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/hassala/CreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/hassala/CreateSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testing/whileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testing/whileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/html-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/json-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/json-reports/CucumberTestReport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Capabilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Capabilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

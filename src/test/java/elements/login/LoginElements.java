@@ -14,7 +14,10 @@ import java.util.List;
 public class LoginElements {
 
     private AppiumDriver driver;
-
+    public LoginElements(AppiumDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+    }
     // Get Started Screen elements
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Allow']")
@@ -117,10 +120,4 @@ public class LoginElements {
     @AndroidFindBy(id = "com.safat.warbaib.uat:id/btnDoneButton")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Accept']")
     public static WebElement acceptTermsBtn;
-
-
-    public LoginElements(AppiumDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-    }
 }

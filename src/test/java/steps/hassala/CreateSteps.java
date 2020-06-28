@@ -4,23 +4,15 @@ import elements.hassala.BreakElements;
 import elements.hassala.CreateElements;
 import elements.hassala.TopUpElements;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileBy;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.nativekey.AndroidKey;
-import io.appium.java_client.android.nativekey.KeyEvent;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import steps.Hooks;
-import util.Util;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import steps.Hooks;
+import util.Util;
 
 import java.io.IOException;
-import java.util.List;
 
 import static elements.hassala.CreateElements.*;
 import static elements.login.LoginElements.*;
@@ -179,76 +171,6 @@ public class CreateSteps {
 
     @And("^user enters the amount as \"(.*)\"$")
     public void user_Enters_The_Amount(String amount) throws InterruptedException, IOException {
-       /* for (int i = 0; i < amount.length(); i++) {
-            int j = Character.digit(amount.charAt(i), 10);
-            if (get("TESTING_PLATFORM").equals("IOS")) {
-                switch (j) {
-                    case 0:
-                        zeroKey.click();
-                        break;
-                    case 1:
-                        oneKey.click();
-                        break;
-                    case 2:
-                        twoKey.click();
-                        break;
-                    case 3:
-                        threeKey.click();
-                        break;
-                    case 4:
-                        fourKey.click();
-                        break;
-                    case 5:
-                        fiveKey.click();
-                        break;
-                    case 6:
-                        sixKey.click();
-                        break;
-                    case 7:
-                        sevenKey.click();
-                        break;
-                    case 8:
-                        eightKey.click();
-                        break;
-                    case 9:
-                        nineKey.click();
-                        break;
-                }
-            } else if (get("TESTING_PLATFORM").equals("Android")) {
-                switch (j) {
-                    case 0:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_0));
-                        break;
-                    case 1:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_1));
-                        break;
-                    case 2:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_2));
-                        break;
-                    case 3:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_3));
-                        break;
-                    case 4:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_4));
-                        break;
-                    case 5:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_5));
-                        break;
-                    case 6:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_6));
-                        break;
-                    case 7:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_7));
-                        break;
-                    case 8:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_8));
-                        break;
-                    case 9:
-                        ((AndroidDriver<MobileElement>) driver).pressKey(new KeyEvent(AndroidKey.DIGIT_9));
-                        break;
-                }
-            }
-        }*/
        util.enterAmountBaseOnGivenStringAmount(amount);
         if (get("TESTING_PLATFORM").equals("IOS")) {
             keyDone.click();
