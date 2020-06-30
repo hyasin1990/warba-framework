@@ -547,7 +547,19 @@ public class Util {
         while (!standPurpose.equals(userPurpose))
         {
             nextScroll(purposePicker,0);
+           standPurpose=purposePicker.get(0).getAttribute("value");
         }
+    }
+
+    public void selectParticipants()
+    {
+        for (int i=6;i<9;i++)
+        {
+            particiMonthSelector.get(i).click();
+            waitForElementToBeClickable(cancelLink,30);
+            particiImage.get(1).click();
+        }
+
     }
 
 

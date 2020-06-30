@@ -12,7 +12,8 @@ import lombok.extern.log4j.Log4j2;
 @CucumberOptions(
         features = "src/test/java/features",
         tags = {
-                "@RemoveKharda"
+                "@CreateJam3eya"
+//               + " or @RemoveKharda"
 //                + " or @Topup"
 //                + " or @ManageHassala"
 //               + " or @Withdraw"

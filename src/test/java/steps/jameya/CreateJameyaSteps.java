@@ -7,6 +7,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import steps.Hooks;
@@ -22,14 +23,14 @@ public class CreateJameyaSteps {
 
 
     @Given("user clicks on my social circle tab")
-    public void user_clicks_on_my_social_circle_tab()
-    {
+    public void user_clicks_on_my_social_circle_tab() {
         socialCircleTab.click();
     }
 
 
     @When("user clicks on show link")
     public void user_Clicks_On_Show_Link() {
+        util.waitForElementToBeClickable(showLink,60);
         showLink.click();
     }
 
@@ -41,13 +42,13 @@ public class CreateJameyaSteps {
 
     @Then("user clicks on continue under disclaimer if displayed")
     public void user_Clicks_On_Continue_Under_Disclaimer_If_Displayed() {
-    util.clickOnElementIfDisplayed(continueDiscBtn);
+        util.clickOnElementIfDisplayed(continueDiscBtn);
     }
 
 
     @When("user scrolls under terms and conditions screen")
     public void user_Scrolls_Under_Terms_And_Conditions_Screen() {
-        util.swipeUntilElementIsDisplayed(acceptBtn,366,820,366,350,2);
+        util.swipeUntilElementIsDisplayed(acceptBtn, 366, 720, 366, 350, 2);
     }
 
     @And("user accepts terms and conditions")
@@ -62,19 +63,19 @@ public class CreateJameyaSteps {
 
     @When("^user enters a name for jameya as \"(.*)\"$")
     public void user_Enters_A_Name_For_jameya_As(String JameyaName) {
-    jameyaNameTxt.sendKeys(JameyaName);
-    keyDone.click();
+        jameyaNameTxt.sendKeys(JameyaName);
+        keyDone.click();
     }
 
     @And("^user selects a purpose of the jameya as \"(.*)\"$")
     public void user_Selects_A_Purpose_Of_The_Jameya_As(String purpose) {
-    util.selectPurpose(purpose);
-    keyDone.click();
+        util.selectPurpose(purpose);
+        keyDone.click();
     }
 
     @And("user clicks on upload a photo link")
     public void user_Clicks_On_Upload_A_Photo_Link() {
-    uploadPhotoLink.click();
+        uploadPhotoLink.click();
     }
 
 
@@ -95,8 +96,10 @@ public class CreateJameyaSteps {
 
     @Then("user selects two contacts")
     public void user_Selects_Two_Contacts() {
-        util.swipeUntilElementIsDisplayed(firstContact,340,725,340,350,2);
+        util.swipeUntilElementIsDisplayed(firstContact, 340, 725, 340, 350, 2);
         firstContact.click();
+
+        util.swipeUntilElementIsDisplayed(secondContact, 340, 725, 340, 350, 2);
         secondContact.click();
     }
 
@@ -120,23 +123,25 @@ public class CreateJameyaSteps {
 
     @And("user clicks on day selector and confirm the first value")
     public void user_Clicks_On_Day_Selector_And_Confirm_The_First_Value() {
-
+        distributionMonth.click();
+        keyDone.click();
     }
 
     @When("user clicks on Choose dates link")
     public void user_Clicks_On_Choose_Dates_Link() {
+        chooseDatesLink.click();
     }
 
-    @And("user clicks on each available month to select participant")
+    @And("user clicks on each available month to select participants")
     public void user_Clicks_On_Each_Available_Month_To_Select_Participant() {
+            util.selectParticipants();
+
     }
 
     @And("user confirms pay out day")
     public void user_Confirms_PayOut_Day() {
+        keyDone.click();
     }
-
-
-
 
 
 }
