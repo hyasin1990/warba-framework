@@ -1,5 +1,5 @@
-2020-06-30 09:04:48:918 [Appium] Welcome to Appium v1.17.1
-2020-06-30 09:04:48:920 [Appium] Non-default server args:
-2020-06-30 09:04:48:920 [Appium]   logFile: /Users/abhishekjain/Documents/Practice Projects/iPhone/WarbaProject/src/test/Logs/AppiumLogs.txt
-2020-06-30 09:04:48:920 [Appium]   localTimezone: true
-2020-06-30 09:04:48:940 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+2020-07-02 08:37:01:590 [Appium] Welcome to Appium v1.17.1
+2020-07-02 08:37:01:592 [Appium] Non-default server args:
+2020-07-02 08:37:01:592 [Appium]   logFile: /Users/abhishekjain/Documents/Practice Projects/iPhone/WarbaProject/src/test/Logs/AppiumLogs.txt
+2020-07-02 08:37:01:592 [Appium]   localTimezone: true
+2020-07-02 08:37:01:613 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.

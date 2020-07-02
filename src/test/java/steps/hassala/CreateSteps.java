@@ -130,8 +130,12 @@ public class CreateSteps {
 
     @And("user allows access permission if displayed")
     public void user_Allows_Access_Permission() throws IOException {
-        if (get("TESTING_PLATFORM").equals("IOS")) {
+        if (get("TESTING_PLATFORM").equals("IOS")&&get("NO_RESET").equals("false")) {
+            allowPhAccess.click();
+        } else
+        {
             util.clickOnElementIfDisplayed(allowPhAccess);
+
         }
     }
 

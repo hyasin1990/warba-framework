@@ -54,10 +54,10 @@ public class CreateJameyaElements {
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Add Participants']")
     public static WebElement addParticiLink;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[contains(@name,'Jamuser20')]")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[contains(@name,'Jamuser11')]")
     public static WebElement firstContact;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[contains(@name,'Jamuser21')]")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[contains(@name,'Jamuser31')]")
     public static WebElement secondContact;
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeSlider")
@@ -79,8 +79,38 @@ public class CreateJameyaElements {
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Cancel']")
     public static WebElement cancelLink;
 
-    @iOSXCUITFindBy(accessibility = "Total Jam3eya")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[contains(@name,'Join')]")
+    public static WebElement joinJameya;
+
+    @iOSXCUITFindBy(accessibility = "Keep Going")
+    public static WebElement keepGoingBtn;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Savings']")
+    public static WebElement purposeList;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Cancel']")
+    public static WebElement cancelJameya;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@label='Yes, cancel']")
+    public static WebElement confirmCancellationBtn;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Total Jam3eya']")
     public static WebElement anyJameya;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Start Jam3eya']")
+    public static WebElement startJameyaBtn;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"Confirm\"]")
+    public static List<WebElement> confParticipants;
+
+    @iOSXCUITFindBy(accessibility = "textField_answer")
+    public static WebElement otpField;
+
+    @iOSXCUITFindBy(accessibility = "jameya.appbar")
+    public static WebElement jameyaDotsMenu;
+
+    @iOSXCUITFindBy(accessibility = "Delete Jameya")
+    public static WebElement deleteJameya;
 
 
 }

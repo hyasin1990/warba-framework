@@ -21,7 +21,7 @@ public class CreateJameyaSteps {
     Util util = new Util(driver);
     CreateJameyaElements createJameyaElements = new CreateJameyaElements(driver);
 
-
+    //jamuser29 and jamuser31
     @Given("user clicks on my social circle tab")
     public void user_clicks_on_my_social_circle_tab() {
         socialCircleTab.click();
@@ -75,6 +75,7 @@ public class CreateJameyaSteps {
 
     @And("user clicks on upload a photo link")
     public void user_Clicks_On_Upload_A_Photo_Link() {
+        util.waitForElementToBeClickable(uploadPhotoLink,20);
         uploadPhotoLink.click();
     }
 
@@ -97,9 +98,11 @@ public class CreateJameyaSteps {
     @Then("user selects two contacts")
     public void user_Selects_Two_Contacts() {
         util.swipeUntilElementIsDisplayed(firstContact, 340, 725, 340, 350, 2);
+        util.waitForElementToBeClickable(firstContact,20);
         firstContact.click();
 
         util.swipeUntilElementIsDisplayed(secondContact, 340, 725, 340, 350, 2);
+        util.waitForElementToBeClickable(secondContact,30);
         secondContact.click();
     }
 
@@ -117,7 +120,7 @@ public class CreateJameyaSteps {
     @And("user selects monthly amount")
     public void user_Selects_Monthly_Amount() {
         monthlyAmountSlider.sendKeys("0.2");
-        monthlyAmountSlider.sendKeys("0.0");
+        //monthlyAmountSlider.sendKeys("0.0");
 
     }
 
@@ -142,6 +145,28 @@ public class CreateJameyaSteps {
     public void user_Confirms_PayOut_Day() {
         keyDone.click();
     }
+
+    @When("user clicks on cancel to cancel jameya")
+    public void user_clicks_on_cancel_to_cancel_jameya()
+    {
+        util.waitForElementToBeClickable(cancelJameya,30);
+        cancelJameya.click();
+    }
+
+    @And("user confirms the cancellation")
+    public void user_confirms_the_cancellation()
+    {
+        confirmCancellationBtn.click();
+    }
+
+    @And("user selects the created jameya")
+    public void user_selects_the_created_jameya()
+    {
+        anyJameya.click();
+    }
+
+
+
 
 
 }

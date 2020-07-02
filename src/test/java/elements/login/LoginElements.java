@@ -120,4 +120,6 @@ public class LoginElements {
     @AndroidFindBy(id = "com.safat.warbaib.uat:id/btnDoneButton")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Accept']")
     public static WebElement acceptTermsBtn;
+
+
 }

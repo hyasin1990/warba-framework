@@ -543,7 +543,7 @@ public class Util {
 
     public void selectPurpose(String userPurpose)
     {
-     String standPurpose=purposePicker.get(0).getAttribute("value");
+        String standPurpose=purposePicker.get(0).getAttribute("value");
         while (!standPurpose.equals(userPurpose))
         {
             nextScroll(purposePicker,0);
