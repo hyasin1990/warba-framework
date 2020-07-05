@@ -1,5 +1,6 @@
 package steps.jameya;
 
+import elements.hassala.CreateElements;
 import elements.jameya.CreateJameyaElements;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
@@ -9,17 +10,26 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import steps.Hooks;
 import util.Util;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+
+import static elements.hassala.CreateElements.screenBack;
 import static elements.jameya.CreateJameyaElements.*;
 import static elements.login.LoginElements.*;
+import static util.Util.hold;
 
 public class CreateJameyaSteps {
     AppiumDriver driver = Hooks.driver;
     Util util = new Util(driver);
     CreateJameyaElements createJameyaElements = new CreateJameyaElements(driver);
+    CreateElements createElements= new CreateElements(driver);
 
     //jamuser29 and jamuser31
     @Given("user clicks on my social circle tab")
@@ -68,14 +78,27 @@ public class CreateJameyaSteps {
     }
 
     @And("^user selects a purpose of the jameya as \"(.*)\"$")
-    public void user_Selects_A_Purpose_Of_The_Jameya_As(String purpose) {
+    public void user_Selects_A_Purpose_Of_The_Jameya_As(String purpose) throws InterruptedException {
+         List<WebElement> elements = driver.findElements(By.xpath("//XCUIElementTypeTextField"));
+         for (int i=0;i<elements.size();i++)
+         {
+             System.out.println(elements.get(i).getAttribute("name"));
+         }
+        //util.waitForElementToBeVisible(purposePicker.get(0),20);
+
+        // 1 solution is to click on element if displayed and the element is the list it self
+        //util.clickOnElementIfDisplayed(purposeList);
+
+        // *** TRY TO INVOKE THE PREVIOUS LIST ONCE AGAIN AND CONFIRM IT THEN REOPEN THIS LIST
+        util.clickOnElementIfDisplayed(keyDone);
+        util.clickOnElementIfDisplayed(purposeList);
         util.selectPurpose(purpose);
         keyDone.click();
     }
 
     @And("user clicks on upload a photo link")
     public void user_Clicks_On_Upload_A_Photo_Link() {
-        util.waitForElementToBeClickable(uploadPhotoLink,20);
+        util.waitForElementToBeClickable(uploadPhotoLink,10);
         uploadPhotoLink.click();
     }
 
@@ -100,7 +123,7 @@ public class CreateJameyaSteps {
         util.swipeUntilElementIsDisplayed(firstContact, 340, 725, 340, 350, 2);
         util.waitForElementToBeClickable(firstContact,20);
         firstContact.click();
-
+        util.waitForElementToBeClickable(screenBack,10);
         util.swipeUntilElementIsDisplayed(secondContact, 340, 725, 340, 350, 2);
         util.waitForElementToBeClickable(secondContact,30);
         secondContact.click();
@@ -142,8 +165,10 @@ public class CreateJameyaSteps {
     }
 
     @And("user confirms pay out day")
-    public void user_Confirms_PayOut_Day() {
+    public void user_Confirms_PayOut_Day() throws InterruptedException {
+        util.nextScroll(payoutPicker,0);
         keyDone.click();
+        hold(30);
     }
 
     @When("user clicks on cancel to cancel jameya")
@@ -162,6 +187,7 @@ public class CreateJameyaSteps {
     @And("user selects the created jameya")
     public void user_selects_the_created_jameya()
     {
+        util.waitForElementToBeClickable(anyJameya,10);
         anyJameya.click();
     }
 

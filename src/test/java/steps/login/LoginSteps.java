@@ -38,10 +38,11 @@ public class LoginSteps {
 
     @Given("send notification was shown to user and he allows it")
     public void send_notification_was_shown_to_user() throws IOException {
-        if (get("NO_RESET").equals("false") && get("TESTING_PLATFORM").equals("IOS"))
-        {
-            allowBtn.click();
-        }
+//        if (get("NO_RESET").equals("false") && get("TESTING_PLATFORM").equals("IOS"))
+//        {
+//            allowBtn.click();
+//        }
+        util.clickOnElementIfDisplayed(allowBtn);
     }
 
     @When("user swipes under get started screen and hits get started button")

@@ -52,6 +52,13 @@ public class Util {
 
     // * * * Below are common utils * * * //
 
+    public void holdWhileNotDisplayed(WebElement element, int time) throws InterruptedException {
+        while (!element.isDisplayed())
+        {
+            hold(time);
+        }
+    }
+
 /*
     To execute switch statement on amount string and enter number from keyboard accordingly
 */

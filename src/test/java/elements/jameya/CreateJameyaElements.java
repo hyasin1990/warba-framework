@@ -112,5 +112,14 @@ public class CreateJameyaElements {
     @iOSXCUITFindBy(accessibility = "Delete Jameya")
     public static WebElement deleteJameya;
 
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@label='Continue']")
+    public static WebElement continueDelete;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypePickerWheel")
+    public static List<WebElement> payoutPicker;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='26th of the month']")
+    public static WebElement payDayList;
+
 
 }

@@ -14,22 +14,22 @@ import org.junit.runner.RunWith;
         dryRun = false,
         monochrome = true,
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
-        tags = {"@AddSaveAs"
-                + " or @RemoveSaveAs"
+        tags = {"@CreateHassala "
+//                 + " or @RemoveSaveAs"
 //                 + " or @ViewAll"
-//                + " or @AddKharda"
-//                + " or @AddSaveAs"
-//                + " or @AddAutomated"
-//                + " or @AddSweep"
-                //  + " or @AddKharda"
-//                + " or @RemoveAutomated"
-//                + " or @RemoveSweep"
-                // + " or @Withdraw"s
-                // + " or @ViewAll"
-                // + " or @BreaZerokHassala"
-                // + " or @Topup"
-                //  + " or @ManageHassala"
-//                + " or @BreakZeroHassala"
+//                 + " or @AddKharda"
+//                 + " or @AddSaveAs"
+//                 + " or @AddAutomated"
+//                 + " or @AddSweep"
+//                 + " or @AddKharda"
+//                 + " or @RemoveAutomated"
+//                 + " or @RemoveSweep"
+//                 + " or @Withdraw"
+//                 + " or @ViewAll"
+//                 + " or @BreaZerokHassala"
+//                 + " or @Topup"
+//                 + " or @ManageHassala"
+//                 + " or @BreakZeroHassala"
         })
 //tags = {"@WithTable"}
 //tags = {"~@Neg"} : In order to run all scenarios that do not have this tag

@@ -128,3 +128,11 @@ U
 %src/test/java/Listener/Listeners.java,0/7/07caa1052b3040d37eac8b42e35e50012726e082
 \
 ,src/test/java/Listener/ExtentReporterNG.java,4/e/4ebf299d72079f271003df7bcecfedd15e1cbc69
+g
+7src/test/java/elements/jameya/CreateJameyaElements.java,4/e/4efea9d97004cca177c9e2959f05415f05f730b4
+_
+/src/test/java/steps/jameya/JoinJameyaSteps.java,d/a/da6b1076554e757e4b15d4c0cd72ee34cd1e3699
+b
+2src/test/java/features/jameya/CreateJameya.feature,f/6/f6629267b92b396a434079d38d7f5d830bd8e5b8
+a
+1src/test/java/steps/jameya/CreateJameyaSteps.java,b/4/b4db2b13fc2f3b814cdf74ae1b3ea82f16635f17

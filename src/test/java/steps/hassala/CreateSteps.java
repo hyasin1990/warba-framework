@@ -140,8 +140,9 @@ public class CreateSteps {
     }
 
     @And("user clicks on all photos tab from photos gallery")
-    public void user_Clicks_On_All_Photos_Tab_From_Photos_Gallery() throws IOException {
+    public void user_Clicks_On_All_Photos_Tab_From_Photos_Gallery() throws IOException, InterruptedException {
         if (get("TESTING_PLATFORM").equals("IOS")) {
+            hold(30);
             allPhotos.click();
         }
     }
@@ -162,9 +163,10 @@ public class CreateSteps {
     }
 
     @Then("clicks on choose to confirm it")
-    public void clicks_On_Choose_To_Confirm_It() throws IOException {
+    public void clicks_On_Choose_To_Confirm_It() throws IOException, InterruptedException {
         if (get("TESTING_PLATFORM").equals("IOS")) {
             confPhoto.click();
+            hold(30);
         }
     }
 
