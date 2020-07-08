@@ -2,36 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4c57cd-9f32-4d81-8026-e1f0492a5806" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09b83e21476812c540ecda38ed86fef5c627971a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09b83e21476812c540ecda38ed86fef5c627971a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/525709d632c4d9549a9752d65e8330dc2263eb4f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/525709d632c4d9549a9752d65e8330dc2263eb4f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0ad6766a8e630730ac406ea2a4165146344533c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0ad6766a8e630730ac406ea2a4165146344533c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/A/jameya/001-CreateJameya.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Reports/htmlreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Reports/htmlreport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ScreenShots/Accepting Jameya By Second user 02-07 08:38 .jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/jameya/CreateJameyaElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/jameya/CreateJameyaElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/CreateHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/hassala/CreateHassala.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/jameya/CreateJameya.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/jameya/CreateJameya.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/login/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/login/LoginElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/AddAutomated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/012-AddAutomated.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/AddKharda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/008-AddKharda.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/AddSaveAs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/010-AddSaveAs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/AddSweep.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/014-AddSweep.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/BreakHassala.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/BreakZeroHassala.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/CreateHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/006-CreateHassala.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/ManageHassala.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/RemoveAutomated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/013-RemoveAutomated.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/RemoveKharda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/009-RemoveKharda.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/RemoveSaveAs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/011-RemoveSaveAs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/RemoveSweep.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/015-RemoveSweep.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/Topup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/007-Topup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/TransactionsPullup.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/ViewAllScreen.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/hassala/WithdrawSavings.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/jameya/CreateJameya.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/LoginRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/LoginRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/hassala/CreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/hassala/CreateSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/jameya/JoinJameyaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/jameya/JoinJameyaSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/Capabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Capabilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/html-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/json-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/json-reports/CucumberTestReport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/json-reports/CucumberTestReport.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/jameya/CreateJameyaElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/jameya/CreateJameyaElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/hassala/CreateSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/hassala/CreateSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/jameya/CreateJameyaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/jameya/CreateJameyaSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/jameya/JoinJameyaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/jameya/JoinJameyaSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/login/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/login/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Capabilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Capabilities.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,23 +90,11 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/test/java/steps/hassala/TopupSteps.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/test/Logs" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Listeners" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Listener" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="runners" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-      <recent name="Utilities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
@@ -103,6 +103,18 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
+      <recent name="" />
+      <recent name="Utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/Logs" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Listeners" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -110,7 +122,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/abhishekjain/Documents/Practice Projects/iPhone/WarbaProject/testng.xml">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="whileLoop" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testing.whileLoop" />
       <module name="WarbaProject" />
@@ -308,11 +320,12 @@
     <state x="304" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.948@0.23.1680.948" timestamp="1590492053849" />
     <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.951@0.23.1680.951" timestamp="1585567626004" />
     <state x="304" y="158" width="1071" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.953@0.23.1680.953" timestamp="1587802032273" />
-    <state x="561" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591373493174">
-      <screen x="0" y="23" width="1680" height="948" />
+    <state x="561" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594202607568">
+      <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="561" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.948@0.23.1680.948" timestamp="1591373493174" />
     <state x="561" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.949@0.23.1680.949" timestamp="1585898439524" />
+    <state x="561" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.955@0.23.1680.955" timestamp="1594202607568" />
     <state x="627" y="208" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1590157248756">
       <screen x="0" y="23" width="1680" height="948" />
     </state>
@@ -381,62 +394,62 @@
       <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state x="100" y="123" width="1480" height="748" key="DiffContextDialog/0.23.1680.948@0.23.1680.948" timestamp="1589639858178" />
-    <state width="1680" height="189" key="GridCell.Tab.0.bottom" timestamp="1593923941256">
-      <screen x="0" y="23" width="1680" height="953" />
+    <state width="1680" height="189" key="GridCell.Tab.0.bottom" timestamp="1594209778927">
+      <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.948@0.23.1680.948" timestamp="1593782529999" />
     <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1586685785516" />
-    <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.951@0.23.1680.951" timestamp="1593881414234" />
+    <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.951@0.23.1680.951" timestamp="1593927562863" />
     <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.953@0.23.1680.953" timestamp="1593923941256" />
-    <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1593666563341" />
-    <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1593693166696" />
-    <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1593692176661" />
-    <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1593689735098" />
+    <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1594209778927" />
+    <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1594207552176" />
+    <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1594012444282" />
+    <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1594013765299" />
     <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1593688956381" />
     <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1593688697781" />
     <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1593687988507" />
     <state width="1920" height="195" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1591611602683" />
-    <state width="1680" height="189" key="GridCell.Tab.0.center" timestamp="1593923941255">
-      <screen x="0" y="23" width="1680" height="953" />
+    <state width="1680" height="189" key="GridCell.Tab.0.center" timestamp="1594209778926">
+      <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.948@0.23.1680.948" timestamp="1593782529998" />
     <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1586685785515" />
-    <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.951@0.23.1680.951" timestamp="1593881414233" />
+    <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.951@0.23.1680.951" timestamp="1593927562862" />
     <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.953@0.23.1680.953" timestamp="1593923941255" />
-    <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1593666563340" />
-    <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1593693166695" />
-    <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1593692176660" />
-    <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1593689735092" />
+    <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1594209778926" />
+    <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1594207552175" />
+    <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1594012444281" />
+    <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1594013765298" />
     <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1593688956380" />
     <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1593688697780" />
     <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1593687988506" />
     <state width="1920" height="195" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1591611602682" />
-    <state width="1680" height="189" key="GridCell.Tab.0.left" timestamp="1593923941254">
-      <screen x="0" y="23" width="1680" height="953" />
+    <state width="1680" height="189" key="GridCell.Tab.0.left" timestamp="1594209778926">
+      <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.948@0.23.1680.948" timestamp="1593782529998" />
     <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1586685785515" />
-    <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.951@0.23.1680.951" timestamp="1593881414232" />
+    <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.951@0.23.1680.951" timestamp="1593927562861" />
     <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.953@0.23.1680.953" timestamp="1593923941254" />
-    <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1593666563340" />
-    <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1593693166695" />
-    <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1593692176660" />
-    <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1593689735092" />
+    <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1594209778926" />
+    <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1594207552174" />
+    <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1594012444280" />
+    <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1594013765298" />
     <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1593688956380" />
     <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1593688697779" />
     <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1593687988506" />
     <state width="1920" height="195" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1591611602681" />
-    <state width="1680" height="189" key="GridCell.Tab.0.right" timestamp="1593923941255">
-      <screen x="0" y="23" width="1680" height="953" />
+    <state width="1680" height="189" key="GridCell.Tab.0.right" timestamp="1594209778927">
+      <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.948@0.23.1680.948" timestamp="1593782529999" />
     <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1586685785516" />
-    <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.951@0.23.1680.951" timestamp="1593881414233" />
+    <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.951@0.23.1680.951" timestamp="1593927562862" />
     <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.953@0.23.1680.953" timestamp="1593923941255" />
-    <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1593666563341" />
-    <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1593693166696" />
-    <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1593692176661" />
-    <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1593689735093" />
+    <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1594209778927" />
+    <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1594207552175" />
+    <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1594012444282" />
+    <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1594013765299" />
     <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1593688956381" />
     <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1593688697780" />
     <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1593687988507" />

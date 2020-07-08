@@ -12,28 +12,34 @@ import lombok.extern.log4j.Log4j2;
 @CucumberOptions(
         features = "src/test/java/features",
         tags = {
-                "@CreateJam3eya"
-//               + " or @RemoveKharda"
-//                + " or @Topup"
-//                + " or @ManageHassala"
-//               + " or @Withdraw"
-//                + " or @AddKharda"
-//                + " or @AddSaveAs"
-//                + " or @AddAutomated"
-//                + " or @AddSweep"
-//                + " or @RemoveKharda"
-//                + " or @RemoveSaveAs"
-//                + " or @RemoveAutomated"
-//                + " or @RemoveSweep"
-//                + " or @ViewAll"
-//                + " or @BreakZeroHassala"
+                "@CreateJameya"
+//                 + " or @AcceptJameya1"
+//                 + " or @AcceptJameya1"
+//                + " or @AcceptJameya2"
+//                + " or @StartJameya"
+                + " or @DeleteJameya"
+//                 + " or @CreateHassala"
+//                 + " or @Topup"
+//                 + " or @AddKharda"
+//                 + " or @RemoveKharda"
+//                 + " or @AddSaveAs"
+//                 + " or @RemoveSaveAs"
+//                 + " or @AddAutomated"
+                 + " or @RemoveAutomated"
+//                 + " or @AddSweep"
+//                 + " or @RemoveSweep"
+//                 + " or @ManageHassala"
+//                 + " or @ViewAll"
+//                 + " or @Pullup"
+//                 + " or @Withdraw"
+//                 + " or @BreakHassala"
+//                 + " or @BreakZeroHassala"
         },
         glue = {"steps"},
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/html-reports",
-                "json:target/cucumber-reports/json-reports/CucumberTestReport.json",
-                "rerun:target/cucumber-reports/rerun.txt", "json:target/cucumber.json", "html:target/site/cucumber-pretty",
+                "html:target/site/cucumber-pretty",
         },
         dryRun = false,
         monochrome = false,
@@ -43,18 +49,27 @@ import lombok.extern.log4j.Log4j2;
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 }
-//
-//        tags = {"@CreateHassala"
-//                + " or @Topup"
-//                + " or @ManageHassala"
-//                + " or @Withdraw"
-//                + " or @AddKharda"
-//                + " or @AddSaveAs"
-//                + " or @AddAutomated"
-//                + " or @AddSweep"
-//                + " or @RemoveKharda"
-//                + " or @RemoveSaveAs"
-//                + " or @RemoveAutomated"
-//                + " or @RemoveSweep"
-//                + " or @ViewAll"
-//                + " or @BreakZeroHassala"
+//        tags = {
+//                "@CreateJameya"
+//                 + " or @AcceptJameya1"
+//                 + " or @AcceptJameya1"
+//                + " or @AcceptJameya2"
+//                + " or @StartJameya"
+//                + " or @DeleteJameya"
+//                 + " or @CreateHassala"
+//                 + " or @Topup"
+//                 + " or @AddKharda"
+//                 + " or @RemoveKharda"
+//                 + " or @AddSaveAs"
+//                 + " or @RemoveSaveAs"
+//                 + " or @AddAutomated"
+//                 + " or @RemoveAutomated"
+//                 + " or @AddSweep"
+//                 + " or @RemoveSweep"
+//                 + " or @ManageHassala"
+//                 + " or @ViewAll"
+//                 + " or @Pullup"
+//                 + " or @Withdraw"
+//                 + " or @BreakHassala"
+//                 + " or @BreakZeroHassala"
+//                })

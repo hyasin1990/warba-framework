@@ -18,6 +18,7 @@ public class LoginElements {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
     // Get Started Screen elements
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Allow']")
@@ -48,8 +49,6 @@ public class LoginElements {
     @AndroidFindBy(className = "android.widget.EditText")
     @iOSXCUITFindBy(className = "XCUIElementTypePickerWheel")
     public static List<WebElement> datePicker;
-
-
 
     @AndroidFindBy(id = "com.safat.warbaib.uat:id/pickerArrow")
     public static WebElement andrPickerArrow;
@@ -102,9 +101,6 @@ public class LoginElements {
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"Skip\"]")
     public static WebElement tutSkip;
 
-    //xpath = "//XCUIElementTypeStaticText[contains(@value,'Saved')]")
-
-   // @AndroidFindBy(xpath = "//android.widget.TextView(contains[@text,\"Hassalaty\"])")
    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text,'Hassalaty')]")
     @iOSXCUITFindBy(accessibility = "My Term Deposits")
     public static WebElement termTitleTxt;

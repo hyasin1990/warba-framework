@@ -59,9 +59,7 @@ public class JoinJameyaSteps {
         confParticipants.get(0).click();
         util.waitForElementToBeClickable(confParticipants.get(1),20);
         confParticipants.get(1).click();
-//        confirmBtn.click();
-//        util.waitForElementToBeClickable(confirmBtn,20);
-//        confirmBtn.click();
+
     }
     @Then("user clicks on the OTP field to start typing it")
     public void user_clicks_on_the_otp_field_to_start_typing_it()

@@ -9,28 +9,60 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/features",
+        plugin = { "pretty", "html:target/Cucumber-html-report"},
         stepNotifications = true,
         glue = "steps",
         dryRun = false,
         monochrome = true,
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
-        tags = {"@CreateHassala "
-//                 + " or @RemoveSaveAs"
-//                 + " or @ViewAll"
-//                 + " or @AddKharda"
-//                 + " or @AddSaveAs"
-//                 + " or @AddAutomated"
-//                 + " or @AddSweep"
-//                 + " or @AddKharda"
-//                 + " or @RemoveAutomated"
-//                 + " or @RemoveSweep"
-//                 + " or @Withdraw"
-//                 + " or @ViewAll"
-//                 + " or @BreaZerokHassala"
+        tags = {
+
+        "@CreateJameya"
+//                 + " or @AcceptJameya1"
+//                 + " or @AcceptJameya1"
+//                + " or @AcceptJameya2"
+//                + " or @StartJameya"
+//                + " or @DeleteJameya"
+//                 + " or @CreateHassala"
 //                 + " or @Topup"
+//                 + " or @AddKharda"
+//                 + " or @RemoveKharda"
+//                 + " or @AddSaveAs"
+//                 + " or @RemoveSaveAs"
+//                 + " or @AddAutomated"
+//                + " or @RemoveAutomated"
+//                 + " or @AddSweep"
+//                 + " or @RemoveSweep"
 //                 + " or @ManageHassala"
+//                 + " or @ViewAll"
+//                 + " or @Pullup"
+//                 + " or @Withdraw"
+//                 + " or @BreakHassala"
 //                 + " or @BreakZeroHassala"
         })
+
+//        tags = {
+//              "@CreateJameya"
+//                 + " or @AcceptJameya1"
+//                + " or @AcceptJameya2"
+//                + " or @StartJameya"
+//                + " or @DeleteJameya"
+//                 + " or @CreateHassala"
+//                 + " or @Topup"
+//                 + " or @AddKharda"
+//                 + " or @RemoveKharda"
+//                 + " or @AddSaveAs"
+//                 + " or @RemoveSaveAs"
+//                 + " or @AddAutomated"
+//                 + " or @RemoveAutomated"
+//                 + " or @AddSweep"
+//                 + " or @RemoveSweep"
+//                 + " or @ManageHassala"
+//                 + " or @ViewAll"
+//                 + " or @Pullup"
+//                 + " or @Withdraw"
+//                 + " or @BreakHassala"
+//                 + " or @BreakZeroHassala"
 //tags = {"@WithTable"}
 //tags = {"~@Neg"} : In order to run all scenarios that do not have this tag
 

@@ -84,10 +84,6 @@ public class CreateJameyaSteps {
          {
              System.out.println(elements.get(i).getAttribute("name"));
          }
-        //util.waitForElementToBeVisible(purposePicker.get(0),20);
-
-        // 1 solution is to click on element if displayed and the element is the list it self
-        //util.clickOnElementIfDisplayed(purposeList);
 
         // *** TRY TO INVOKE THE PREVIOUS LIST ONCE AGAIN AND CONFIRM IT THEN REOPEN THIS LIST
         util.clickOnElementIfDisplayed(keyDone);

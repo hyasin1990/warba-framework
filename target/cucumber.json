@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,13 +11,12 @@
         "steps": [
           {
             "result": {
-              "duration": 5836000000,
+              "duration": 5646000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -25,7 +24,7 @@
                 }
               }
             ],
-            "line": 5,
+            "line": 4,
             "name": "send notification was shown to user and he allows it",
             "match": {
               "location": "steps.login.LoginSteps.send_notification_was_shown_to_user()"
@@ -46,917 +45,21 @@
                 }
               }
             ],
-            "line": 6,
-            "name": "user swipes under get started screen and hits get started button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_Swipes_Under_GetStarted_Screen()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 604000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-05T04:39:04.043Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9738000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.Hooks.setup(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 98,
-        "name": "Accepting Jameya By Second user",
-        "description": "",
-        "id": "creating-a-jameya-then-accepting-it-by-two-participants;accepting-jameya-by-second-user",
-        "after": [
-          {
-            "result": {
-              "duration": 2082000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2249000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 100,
-            "name": "user enters username as \"jamuser11\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jamuser11",
-                  "offset": 25
-                }
-              ],
-              "location": "steps.login.LoginSteps.user_Enters_Proper_Username_As(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1037000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 101,
-            "name": "user clicks on date of birth field",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_date_of_birth_field()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 23831000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 102,
-            "name": "user selects date of birth as \"16\" of \"Jun\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "16",
-                  "offset": 31
-                },
-                {
-                  "val": "Jun",
-                  "offset": 39
-                }
-              ],
-              "location": "steps.login.LoginSteps.userSelectsDateOfBirth(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 942000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 103,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1380000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 104,
-            "name": "security question screen displays",
-            "match": {
-              "location": "steps.login.LoginSteps.security_question_screen_displays()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3005000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 105,
-            "name": "user enters proper answer as \"123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123",
-                  "offset": 30
-                }
-              ],
-              "location": "steps.login.LoginSteps.user_enters_proper_answer(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 717000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 106,
-            "name": "user clicks on next button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1178000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 107,
-            "name": "password screen displays",
-            "match": {
-              "location": "steps.login.LoginSteps.password_Screen_Displays()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3125000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 108,
-            "name": "user enters his password as \"passw0rd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "passw0rd",
-                  "offset": 29
-                }
-              ],
-              "location": "steps.login.LoginSteps.user_Enters_His_Password_As(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 689000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 109,
-            "name": "user clicks on next button After Password",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_next_button_After_Password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7196000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 110,
-            "name": "user skips the tutorial",
-            "match": {
-              "location": "steps.login.LoginSteps.userSkipsTheTutorial()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 942000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 111,
-            "name": "user clicks on my social circle tab",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_clicks_on_my_social_circle_tab()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7834000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 2000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 112,
-            "name": "user scrolls down to the available jameya",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_scrolls_down_to_the_available_jameya()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3160000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 113,
-            "name": "user clicks on join button to join jameya",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_join_button_to_join_jameya()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1813000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 114,
-            "name": "user clicks on continue to confirm invitations",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_Clicks_On_Continue_To_Confirm_Invitations()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5419000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 115,
-            "name": "user clicks on keep going button",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_keep_going_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 34628000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 116,
-            "name": "user scrolls under terms and conditions screen",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_Scrolls_Under_Terms_And_Conditions_Screen()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 614000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 117,
-            "name": "user accepts terms and conditions",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_Accepts_Terms_And_Conditions()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5485000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 118,
-            "name": "user selects an account",
-            "match": {
-              "location": "steps.hassala.TopupSteps.user_Selects_An_Account()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5189000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 119,
-            "name": "user selects an account",
-            "match": {
-              "location": "steps.hassala.TopupSteps.user_Selects_An_Account()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3167000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 120,
-            "name": "user confirms pay out day",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_Confirms_PayOut_Day()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 13608000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 122,
-            "name": "user selects a purpose of the jameya as \"Travel\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Travel",
-                  "offset": 41
-                }
-              ],
-              "location": "steps.jameya.CreateJameyaSteps.user_Selects_A_Purpose_Of_The_Jameya_As(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2643000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 123,
-            "name": "user clicks on upload a photo link",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_Clicks_On_Upload_A_Photo_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1100000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 124,
-            "name": "user clicks on choose from camera roll",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Clicks_On_Choose_From_CameraRoll()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5361000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 125,
-            "name": "user allows access permission if displayed",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Allows_Access_Permission()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1016000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 126,
-            "name": "user clicks on all photos tab from photos gallery",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Clicks_On_All_Photos_Tab_From_Photos_Gallery()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1738000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 127,
-            "name": "user selects any photo to replace the current",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Selects_Any_Photo_To_Replace_The_Current()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1541000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 128,
-            "name": "clicks on choose to confirm it",
-            "match": {
-              "location": "steps.hassala.CreateSteps.clicks_On_Choose_To_Confirm_It()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5996000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 129,
-            "name": "user clicks on join button to join jameya",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_join_button_to_join_jameya()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3699000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 130,
-            "name": "user gets redirected to success screen",
-            "match": {
-              "location": "steps.hassala.TopupSteps.user_Gets_Redirected_To_success_Screen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1209000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 131,
-            "name": "user clicks on done",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Clicks_On_Done()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1961000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 132,
-            "name": "user clicks on back to navigate back to home screen",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Clicks_On_Back_To_Navigate_Back_To_Home_Screen()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3336000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 133,
-            "name": "user clicks on logout icon",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_logout_icon()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CreateJam3eya"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5560000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
             "line": 5,
-            "name": "send notification was shown to user and he allows it",
-            "match": {
-              "location": "steps.login.LoginSteps.send_notification_was_shown_to_user()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 6,
             "name": "user swipes under get started screen and hits get started button",
             "match": {
               "location": "steps.login.LoginSteps.user_Swipes_Under_GetStarted_Screen()"
             },
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 602000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-07-05T04:41:59.142Z",
+        "start_timestamp": "2020-07-05T05:39:24.583Z",
         "before": [
           {
             "result": {
-              "duration": 8353000000,
+              "duration": 6483000000,
               "status": "passed"
             },
             "match": {
@@ -964,14 +67,14 @@
             }
           }
         ],
-        "line": 135,
-        "name": "Starting jameya by host",
+        "line": 9,
+        "name": "Verify login scenario",
         "description": "",
-        "id": "creating-a-jameya-then-accepting-it-by-two-participants;starting-jameya-by-host",
+        "id": "this-feature-is-for-allowing-user-to-login-successfully-to-warba-banking-app-on-ios;verify-login-scenario",
         "after": [
           {
             "result": {
-              "duration": 2087000000,
+              "duration": 2081000000,
               "status": "passed"
             },
             "match": {
@@ -984,7 +87,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2039000000,
+              "duration": 584000000,
               "status": "passed"
             },
             "before": [
@@ -997,12 +100,34 @@
                 }
               }
             ],
-            "line": 137,
-            "name": "user enters username as \"jamuser27\"",
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1830000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user enters username as \"jamuser21\"",
             "match": {
               "arguments": [
                 {
-                  "val": "jamuser27",
+                  "val": "jamuser21",
                   "offset": 25
                 }
               ],
@@ -1012,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 1002000000,
+              "duration": 932000000,
               "status": "passed"
             },
             "before": [
@@ -1025,7 +150,7 @@
                 }
               }
             ],
-            "line": 138,
+            "line": 12,
             "name": "user clicks on date of birth field",
             "match": {
               "location": "steps.login.LoginSteps.user_clicks_on_date_of_birth_field()"
@@ -1034,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 19105000000,
+              "duration": 25281000000,
               "status": "passed"
             },
             "before": [
@@ -1047,7 +172,7 @@
                 }
               }
             ],
-            "line": 139,
+            "line": 13,
             "name": "user selects date of birth as \"16\" of \"Jun\"",
             "match": {
               "arguments": [
@@ -1066,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 871000000,
+              "duration": 831000000,
               "status": "passed"
             },
             "before": [
@@ -1079,7 +204,7 @@
                 }
               }
             ],
-            "line": 140,
+            "line": 14,
             "name": "user clicks on login button",
             "match": {
               "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
@@ -1088,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 1001000000,
+              "duration": 1075000000,
               "status": "passed"
             },
             "before": [
@@ -1101,7 +226,7 @@
                 }
               }
             ],
-            "line": 141,
+            "line": 15,
             "name": "security question screen displays",
             "match": {
               "location": "steps.login.LoginSteps.security_question_screen_displays()"
@@ -1110,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 2784000000,
+              "duration": 2856000000,
               "status": "passed"
             },
             "before": [
@@ -1123,7 +248,7 @@
                 }
               }
             ],
-            "line": 142,
+            "line": 16,
             "name": "user enters proper answer as \"123\"",
             "match": {
               "arguments": [
@@ -1138,7 +263,7 @@
           },
           {
             "result": {
-              "duration": 618000000,
+              "duration": 603000000,
               "status": "passed"
             },
             "before": [
@@ -1151,7 +276,7 @@
                 }
               }
             ],
-            "line": 143,
+            "line": 17,
             "name": "user clicks on next button",
             "match": {
               "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
@@ -1160,13 +285,12 @@
           },
           {
             "result": {
-              "duration": 1080000000,
+              "duration": 1076000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -1174,7 +298,7 @@
                 }
               }
             ],
-            "line": 144,
+            "line": 18,
             "name": "password screen displays",
             "match": {
               "location": "steps.login.LoginSteps.password_Screen_Displays()"
@@ -1183,7 +307,7 @@
           },
           {
             "result": {
-              "duration": 2980000000,
+              "duration": 2949000000,
               "status": "passed"
             },
             "before": [
@@ -1196,7 +320,7 @@
                 }
               }
             ],
-            "line": 145,
+            "line": 19,
             "name": "user enters his password as \"passw0rd\"",
             "match": {
               "arguments": [
@@ -1211,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 621000000,
+              "duration": 594000000,
               "status": "passed"
             },
             "before": [
@@ -1224,7 +348,7 @@
                 }
               }
             ],
-            "line": 146,
+            "line": 20,
             "name": "user clicks on next button After Password",
             "match": {
               "location": "steps.login.LoginSteps.user_clicks_on_next_button_After_Password()"
@@ -1233,233 +357,7 @@
           },
           {
             "result": {
-              "duration": 5049000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 147,
-            "name": "user skips the tutorial",
-            "match": {
-              "location": "steps.login.LoginSteps.userSkipsTheTutorial()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 839000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 148,
-            "name": "user clicks on my social circle tab",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_clicks_on_my_social_circle_tab()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6915000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 149,
-            "name": "user selects the created jameya",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_selects_the_created_jameya()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2003000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 150,
-            "name": "user clicks on start jameya button",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_start_jameya_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2318000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 151,
-            "name": "user confirms both participants details",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_confirms_both_participants_details()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 724000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 152,
-            "name": "user clicks on start jameya button",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_start_jameya_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1605000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 153,
-            "name": "user clicks on the OTP field to start typing it",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_the_otp_field_to_start_typing_it()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4943000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 154,
-            "name": "user enters OTP as \"111111\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "111111",
-                  "offset": 20
-                }
-              ],
-              "location": "steps.jameya.JoinJameyaSteps.user_enters_OTP_as(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 551000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 155,
-            "name": "user clicks on next button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2195000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 156,
-            "name": "user clicks on back to navigate back to home screen",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Clicks_On_Back_To_Navigate_Back_To_Home_Screen()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2577000000,
+              "duration": 7546000000,
               "status": "passed"
             },
             "before": [
@@ -1473,390 +371,7 @@
                 }
               }
             ],
-            "line": 157,
-            "name": "user clicks on logout icon",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_logout_icon()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CreateJam3eya"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5598000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "send notification was shown to user and he allows it",
-            "match": {
-              "location": "steps.login.LoginSteps.send_notification_was_shown_to_user()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "user swipes under get started screen and hits get started button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_Swipes_Under_GetStarted_Screen()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 583000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-05T04:43:17.585Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6977000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.Hooks.setup(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 160,
-        "name": "Deleting any created jameya after accepting it by participants",
-        "description": "",
-        "id": "creating-a-jameya-then-accepting-it-by-two-participants;deleting-any-created-jameya-after-accepting-it-by-participants",
-        "after": [
-          {
-            "result": {
-              "duration": 2110000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2007000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 162,
-            "name": "user enters username as \"jamuser27\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jamuser27",
-                  "offset": 25
-                }
-              ],
-              "location": "steps.login.LoginSteps.user_Enters_Proper_Username_As(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1019000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 163,
-            "name": "user clicks on date of birth field",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_date_of_birth_field()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 23901000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 164,
-            "name": "user selects date of birth as \"16\" of \"Jun\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "16",
-                  "offset": 31
-                },
-                {
-                  "val": "Jun",
-                  "offset": 39
-                }
-              ],
-              "location": "steps.login.LoginSteps.userSelectsDateOfBirth(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 876000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 165,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1048000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 166,
-            "name": "security question screen displays",
-            "match": {
-              "location": "steps.login.LoginSteps.security_question_screen_displays()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2823000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 167,
-            "name": "user enters proper answer as \"123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123",
-                  "offset": 30
-                }
-              ],
-              "location": "steps.login.LoginSteps.user_enters_proper_answer(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 653000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 168,
-            "name": "user clicks on next button",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1114000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 169,
-            "name": "password screen displays",
-            "match": {
-              "location": "steps.login.LoginSteps.password_Screen_Displays()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2996000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 170,
-            "name": "user enters his password as \"passw0rd\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "passw0rd",
-                  "offset": 29
-                }
-              ],
-              "location": "steps.login.LoginSteps.user_Enters_His_Password_As(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 622000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 171,
-            "name": "user clicks on next button After Password",
-            "match": {
-              "location": "steps.login.LoginSteps.user_clicks_on_next_button_After_Password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5029000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 172,
+            "line": 21,
             "name": "user skips the tutorial",
             "match": {
               "location": "steps.login.LoginSteps.userSkipsTheTutorial()"
@@ -1865,8 +380,9 @@
           },
           {
             "result": {
-              "duration": 836000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: logoutt}) (tried for 200 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat util.Util.waitForElementToBeClickable(Util.java:173)\n\tat steps.login.LoginSteps.user_clicks_on_logout_icon(LoginSteps.java:145)\n\tat ✽.user clicks on logout icon(file:///Users/abhishekjain/Documents/Practice%20Projects/iPhone/WarbaProject/src/test/java/features/login/login.feature:22)\nCaused by: org.openqa.selenium.NoSuchElementException: Can\u0027t locate an element by this strategy: By.chained({By.AccessibilityId: logoutt})\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)\n\tat io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$d311658.isDisplayed(\u003cgenerated\u003e)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat util.Util.waitForElementToBeClickable(Util.java:173)\n\tat steps.login.LoginSteps.user_clicks_on_logout_icon(LoginSteps.java:145)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:27)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:124)\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@76c548f (tried for 1 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)\n\t... 52 more\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.AccessibilityId: logoutt})\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027Hussams-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:1831:92f4:66ea:922e%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: driver.version: IOSDriver\n\tat io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)\n\tat io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 54 more\n",
+              "duration": 204180000000,
+              "status": "failed"
             },
             "before": [
               {
@@ -1878,167 +394,26 @@
                 }
               }
             ],
-            "line": 173,
-            "name": "user clicks on my social circle tab",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_clicks_on_my_social_circle_tab()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3559000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 174,
-            "name": "user selects the created jameya",
-            "match": {
-              "location": "steps.jameya.CreateJameyaSteps.user_selects_the_created_jameya()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2612000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 175,
-            "name": "user clicks on jameya dots menu",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_jameya_dots_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 829000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 176,
-            "name": "user clicks on delete jameya tab",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_delete_jameya_tab()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1754000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 177,
-            "name": "user clicks on continue button to delete jameya",
-            "match": {
-              "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_continue_button_to_delete_jameya()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5253000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 178,
-            "name": "user clicks on back to navigate back to home screen",
-            "match": {
-              "location": "steps.hassala.CreateSteps.user_Clicks_On_Back_To_Navigate_Back_To_Home_Screen()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2605000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.Hooks.getScenarioName(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "line": 179,
+            "line": 22,
             "name": "user clicks on logout icon",
             "match": {
               "location": "steps.login.LoginSteps.user_clicks_on_logout_icon()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@CreateJam3eya"
+            "name": "@Login"
           }
         ]
       }
     ],
-    "name": "Creating a jameya then accepting it by two participants",
+    "name": "This feature is for allowing user to login successfully to Warba banking app on IOS",
     "description": "",
-    "id": "creating-a-jameya-then-accepting-it-by-two-participants",
+    "id": "this-feature-is-for-allowing-user-to-login-successfully-to-warba-banking-app-on-ios",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/jameya/CreateJameya.feature",
-    "tags": [
-      {
-        "name": "@CreateJam3eya",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/java/features/login/login.feature",
+    "tags": []
   }
 ]
