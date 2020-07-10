@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 import util.Capabilities;
 
 import java.io.IOException;
+import java.util.List;
 
 import static util.GeneralUtil.*;
 
@@ -40,7 +41,7 @@ public static String scenarioName;
        Service.stop();
     }
     @BeforeStep
-        public static void getScenarioName(io.cucumber.java.Scenario scenario){
-        scenarioName=scenario.getName();
+        public void getScenarioName(io.cucumber.java.Scenario scenario){
+       scenarioName=scenario.getName();
     }
 }

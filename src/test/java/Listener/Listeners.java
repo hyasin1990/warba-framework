@@ -6,6 +6,7 @@ import org.testng.ITestResult;
 import steps.Hooks;
 import util.GeneralUtil;
 
+
 import java.io.IOException;
 
 import static steps.Hooks.scenarioName;
@@ -34,10 +35,10 @@ public class Listeners implements ITestListener{
 
 
         //String s= result.getName();
-    String s=result.getTestContext().getName(); // Hassala test
+       // String s=result.getTestContext().getName(); // Hassala test
 
         try {
-         generalutil.getScreenshot(scenarioName);
+            generalutil.getScreenshot(scenarioName);
             updatedScenarioName=scenarioName;
 
         } catch (IOException e) {
@@ -49,19 +50,16 @@ public class Listeners implements ITestListener{
     @Override
     public void onTestSkipped(ITestResult result) {
         // TODO Auto-generated method stub
-
     }
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
         // TODO Auto-generated method stub
-
     }
 
     @Override
     public void onStart(ITestContext context) {
         // TODO Auto-generated method stub
-
     }
 
     @Override

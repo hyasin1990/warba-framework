@@ -79,14 +79,13 @@ public class CreateJameyaSteps {
 
     @And("^user selects a purpose of the jameya as \"(.*)\"$")
     public void user_Selects_A_Purpose_Of_The_Jameya_As(String purpose) throws InterruptedException {
-         List<WebElement> elements = driver.findElements(By.xpath("//XCUIElementTypeTextField"));
-         for (int i=0;i<elements.size();i++)
-         {
-             System.out.println(elements.get(i).getAttribute("name"));
-         }
+//         List<WebElement> elements = driver.findElements(By.xpath("//XCUIElementTypeTextField"));
+//         for (int i=0;i<elements.size();i++)
+//         {
+//             System.out.println(elements.get(i).getAttribute("name"));
+//         }
 
         // *** TRY TO INVOKE THE PREVIOUS LIST ONCE AGAIN AND CONFIRM IT THEN REOPEN THIS LIST
-        util.clickOnElementIfDisplayed(keyDone);
         util.clickOnElementIfDisplayed(purposeList);
         util.selectPurpose(purpose);
         keyDone.click();

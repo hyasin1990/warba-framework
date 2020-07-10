@@ -11,8 +11,8 @@ import java.util.regex.Pattern;
 public class whileLoop {
     public static void main(String[] args) {
 
-        String name=" h u s s am  ";
-        System.out.println(name.trim());
+        String[]names= new String[]{"d", "c"};
+        System.out.println(names[0]);
 
     }
 }

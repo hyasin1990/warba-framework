@@ -46,7 +46,7 @@ public class AddSweepSteps {
     public void user_Confirms_The_Selection_Of_Any_Monthly_TransferDay() throws InterruptedException, IOException {
         if (get("TESTING_PLATFORM").equals("IOS"))
         {
-            util.hold(50);
+            util.clickOnElementIfDisplayed(monthlyTransferList);
             keyDone.click();
         } else if (get("TESTING_PLATFORM").equals("Android"))
         {

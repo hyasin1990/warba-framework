@@ -29,7 +29,9 @@ public class GeneralUtil {
 
     public void getScreenshot(String s) throws IOException {
 
-        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM HH:mm ");
+        //SimpleDateFormat formatter = new SimpleDateFormat("dd-MM HH:mm ");
+        SimpleDateFormat formatter = new SimpleDateFormat(" HH:mm ");
+
         Date date = new Date();
         File scrfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrfile, new File(System.getProperty("user.dir") + "/src/test/ScreenShots/" + s+ " " + formatter.format(date)+ ".jpg"));

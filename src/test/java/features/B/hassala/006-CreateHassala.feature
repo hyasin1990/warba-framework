@@ -32,7 +32,7 @@ Feature: As a user, I should be able to create new Hassala
     And user clicks on all photos tab from photos gallery
     And user selects any photo
     Then clicks on choose to confirm it
-   # When user clicks on the amount field to start typing
+    When user clicks on the amount field to start typing
     And user enters the amount as "<Goal amount>"
     And User selects goal end date as "<Day>" of "<Month>" , "<Year>"
     And user clicks on confirm button

@@ -12,12 +12,12 @@ import lombok.extern.log4j.Log4j2;
 @CucumberOptions(
         features = "src/test/java/features",
         tags = {
-                "@CreateJameya"
-//                 + " or @AcceptJameya1"
+                "@RemoveSweep"
+//                 + " or @CreateJameya"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
 //                + " or @StartJameya"
-                + " or @DeleteJameya"
+//                + " or @DeleteJameya"
 //                 + " or @CreateHassala"
 //                 + " or @Topup"
 //                 + " or @AddKharda"
@@ -25,7 +25,7 @@ import lombok.extern.log4j.Log4j2;
 //                 + " or @AddSaveAs"
 //                 + " or @RemoveSaveAs"
 //                 + " or @AddAutomated"
-                 + " or @RemoveAutomated"
+//                + " or @RemoveAutomated"
 //                 + " or @AddSweep"
 //                 + " or @RemoveSweep"
 //                 + " or @ManageHassala"
@@ -34,6 +34,7 @@ import lombok.extern.log4j.Log4j2;
 //                 + " or @Withdraw"
 //                 + " or @BreakHassala"
 //                 + " or @BreakZeroHassala"
+
         },
         glue = {"steps"},
         plugin = {

@@ -344,7 +344,6 @@ public class Util {
     public void selectDateBasedOnUserSelection(String day, String userMonth, String year, List<WebElement> picker) throws InterruptedException {
 
         String standMonth = picker.get(0).getAttribute("value");
-        System.out.println(standMonth);
         int intUserMonth = 0;
         int intStandMonth = 0;
         switch (standMonth) {
@@ -385,7 +384,6 @@ public class Util {
                 intStandMonth = 12;
                 break;
         }
-        System.out.println("Stand month is " + intStandMonth);
         switch (userMonth) {
             case "Jan":
                 intUserMonth = 1;
@@ -435,7 +433,6 @@ public class Util {
                 intUserMonth = 12;
                 break;
         }
-        System.out.println("user month is " + intUserMonth);
 
         while (intStandMonth != intUserMonth) {
             if (intStandMonth > intUserMonth) {

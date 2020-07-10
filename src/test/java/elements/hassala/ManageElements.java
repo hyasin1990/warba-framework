@@ -47,6 +47,9 @@ public class ManageElements {
 
     // Funding methods
 
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='1']")
+    public static WebElement monthlyTransferList;
+
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Add Method']")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@value='Add Method']")
     public static List<WebElement> addMethods;

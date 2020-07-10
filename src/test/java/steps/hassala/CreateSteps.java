@@ -13,6 +13,7 @@ import steps.Hooks;
 import util.Util;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import static elements.hassala.CreateElements.*;
 import static elements.login.LoginElements.*;
@@ -218,7 +219,10 @@ public class CreateSteps {
     @Given("user scrolls down until accept button displays")
     public void user_scrolls_down_until_accept_button_displays() throws IOException {
         if (get("TESTING_PLATFORM").equals("IOS")) {
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             util.swipeUntilElementIsDisplayed(acceptTermsBtn, 19, 650, 18, 100, 2);
+            //util.swipeByCoordinates(19, 650, 18, 100, 2);
+
 
         }
     }

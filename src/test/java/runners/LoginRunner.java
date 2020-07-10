@@ -17,8 +17,8 @@ import org.junit.runner.RunWith;
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
         tags = {
 
-        "@CreateJameya"
-//                 + " or @AcceptJameya1"
+            "@CreateHassala"
+//                 + " or @CreateJameya"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
 //                + " or @StartJameya"

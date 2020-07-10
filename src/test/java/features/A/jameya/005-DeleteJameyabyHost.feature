@@ -46,4 +46,3 @@ Feature: As a host I should be able to delete jameya
 #  And user confirms the cancellation
 #  And user clicks on back to navigate back to home screen
 #  And user clicks on logout icon
-#

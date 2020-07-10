@@ -18,6 +18,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import steps.Hooks;
 
 import static Listener.Listeners.updatedScenarioName;
 import static steps.Hooks.scenarioName;
@@ -26,11 +27,11 @@ import static steps.Hooks.scenarioName;
 public class ExtentReporterNG implements IReporter {
     private ExtentReports extent;
     ExtentHtmlReporter htmlReporter;
-
+    Hooks hooks = new Hooks();
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/src/test/Reports/htmlreport.html");
-       extent = new ExtentReports();
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/src/test/Reports/TestingReport.html");
+        extent = new ExtentReports();
 
         extent.attachReporter(htmlReporter);
         for (ISuite suite : suites) {
@@ -49,12 +50,10 @@ public class ExtentReporterNG implements IReporter {
 
     private void buildTestNodes(IResultMap tests, Status status) {
         ExtentTest test;
-
         if (tests.size() > 0) {
             for (ITestResult result : tests.getAllResults()) {
-                test = extent.createTest(result.getMethod().getMethodName());
-             // test = extent.createTest(updatedScenarioName);
-
+                test = extent.createTest(scenarioName);
+                //test = extent.createTest(updatedScenarioName);
                 /*test.getTest(). = getTime(result.getStartMillis());
                 test.getTest().endedTime = getTime(result.getEndMillis());*/
 
@@ -68,7 +67,7 @@ public class ExtentReporterNG implements IReporter {
 
                 test.log(status, message);
 
-          //      extent.endTest(test);
+                //      extent.endTest(test);
             }
         }
     }
