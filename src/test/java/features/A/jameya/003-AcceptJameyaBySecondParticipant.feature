@@ -1,4 +1,4 @@
-@AcceptJam3eya2
+@AcceptJameya2
 Feature: As a second participant I should be able to join jameya
 
   Background:

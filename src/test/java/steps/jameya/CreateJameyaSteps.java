@@ -3,11 +3,14 @@ package steps.jameya;
 import elements.hassala.CreateElements;
 import elements.jameya.CreateJameyaElements;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import io.appium.java_client.touch.offset.ElementOption;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.bson.io.BsonOutput;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
@@ -15,6 +18,11 @@ import org.testng.Assert;
 import steps.Hooks;
 import util.Util;
 
+import static elements.hassala.ManageElements.continueBtn;
+import static util.GeneralUtil.get;
+
+
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -29,19 +37,25 @@ public class CreateJameyaSteps {
     AppiumDriver driver = Hooks.driver;
     Util util = new Util(driver);
     CreateJameyaElements createJameyaElements = new CreateJameyaElements(driver);
-    CreateElements createElements= new CreateElements(driver);
+    CreateElements createElements = new CreateElements(driver);
 
     //jamuser29 and jamuser31
     @Given("user clicks on my social circle tab")
     public void user_clicks_on_my_social_circle_tab() {
+        util.waitForElementToBeClickable(socialCircleTab, 60);
         socialCircleTab.click();
     }
 
 
     @When("user clicks on show link")
-    public void user_Clicks_On_Show_Link() {
-        util.waitForElementToBeClickable(showLink,60);
-        showLink.click();
+    public void user_Clicks_On_Show_Link() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            util.waitForElementToBeClickable(showLink, 60);
+            showLink.click();
+        } else if (get("TESTING_PLATFORM").equals("Android")) {
+            util.swipeByCoordinates(780, 1500, 780, 1000, 2);
+            util.swipeByCoordinates(780, 1500, 780, 740, 2);
+        }
     }
 
 
@@ -57,12 +71,19 @@ public class CreateJameyaSteps {
 
 
     @When("user scrolls under terms and conditions screen")
-    public void user_Scrolls_Under_Terms_And_Conditions_Screen() {
-        util.swipeUntilElementIsDisplayed(acceptBtn, 366, 720, 366, 350, 2);
+    public void user_Scrolls_Under_Terms_And_Conditions_Screen() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            util.swipeUntilElementIsDisplayed(acceptBtn, 366, 720, 366, 350, 2);
+        } else if (get("TESTING_PLATFORM").equals("Android")) {
+            for (int i = 0; i < 10; i++) {
+                util.swipeByCoordinates(900, 1270, 900, 30, 2);
+            }
+        }
+
     }
 
     @And("user accepts terms and conditions")
-    public void user_Accepts_Terms_And_Conditions() {
+    public void user_Accepts_Terms_And_Conditions() throws IOException {
         acceptBtn.click();
     }
 
@@ -72,13 +93,18 @@ public class CreateJameyaSteps {
     }
 
     @When("^user enters a name for jameya as \"(.*)\"$")
-    public void user_Enters_A_Name_For_jameya_As(String JameyaName) {
+    public void user_Enters_A_Name_For_jameya_As(String JameyaName) throws IOException {
         jameyaNameTxt.sendKeys(JameyaName);
-        keyDone.click();
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            keyDone.click();
+        } else if (get("TESTING_PLATFORM").equals("Android")) {
+            util.andrClickEnter();
+        }
+
     }
 
     @And("^user selects a purpose of the jameya as \"(.*)\"$")
-    public void user_Selects_A_Purpose_Of_The_Jameya_As(String purpose) throws InterruptedException {
+    public void user_Selects_A_Purpose_Of_The_Jameya_As(String purpose) throws InterruptedException, IOException {
 //         List<WebElement> elements = driver.findElements(By.xpath("//XCUIElementTypeTextField"));
 //         for (int i=0;i<elements.size();i++)
 //         {
@@ -86,15 +112,22 @@ public class CreateJameyaSteps {
 //         }
 
         // *** TRY TO INVOKE THE PREVIOUS LIST ONCE AGAIN AND CONFIRM IT THEN REOPEN THIS LIST
-        util.clickOnElementIfDisplayed(purposeList);
-        util.selectPurpose(purpose);
-        keyDone.click();
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            util.clickOnElementIfDisplayed(purposeList);
+            util.selectPurpose(purpose);
+            keyDone.click();
+        } else if (get("TESTING_PLATFORM").equals("Android")) {
+            andrDone.click();
+        }
+
     }
 
     @And("user clicks on upload a photo link")
-    public void user_Clicks_On_Upload_A_Photo_Link() {
-        util.waitForElementToBeClickable(uploadPhotoLink,10);
-        uploadPhotoLink.click();
+    public void user_Clicks_On_Upload_A_Photo_Link() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            util.waitForElementToBeClickable(uploadPhotoLink, 10);
+            uploadPhotoLink.click();
+        }
     }
 
 
@@ -114,19 +147,31 @@ public class CreateJameyaSteps {
     }
 
     @Then("user selects two contacts")
-    public void user_Selects_Two_Contacts() {
-        util.swipeUntilElementIsDisplayed(firstContact, 340, 725, 340, 350, 2);
-        util.waitForElementToBeClickable(firstContact,20);
-        firstContact.click();
-        util.waitForElementToBeClickable(screenBack,10);
-        util.swipeUntilElementIsDisplayed(secondContact, 340, 725, 340, 350, 2);
-        util.waitForElementToBeClickable(secondContact,30);
-        secondContact.click();
+    public void user_Selects_Two_Contacts() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            util.swipeUntilElementIsDisplayed(firstContact, 340, 725, 340, 350, 2);
+            util.waitForElementToBeClickable(firstContact, 20);
+            firstContact.click();
+            util.waitForElementToBeClickable(screenBack, 10);
+            util.swipeUntilElementIsDisplayed(secondContact, 340, 725, 340, 350, 2);
+            util.waitForElementToBeClickable(secondContact, 30);
+            secondContact.click();
+        }
+        if (get("TESTING_PLATFORM").equals("Android")) {
+            firstContact.click();
+            secondContact.click();
+        }
+
+
     }
 
     @When("user clicks on done to submit selected contacts")
-    public void user_Clicks_On_Done_To_Submit_Selected_Contacts() {
-        keyDone.click();
+    public void user_Clicks_On_Done_To_Submit_Selected_Contacts() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            keyDone.click();
+        } else if (get("TESTING_PLATFORM").equals("Android")) {
+            contactsDone.click();
+        }
     }
 
     @And("user clicks on continue to confirm invitations")
@@ -136,16 +181,39 @@ public class CreateJameyaSteps {
 
 
     @And("user selects monthly amount")
-    public void user_Selects_Monthly_Amount() {
-        monthlyAmountSlider.sendKeys("0.2");
+    public void user_Selects_Monthly_Amount() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            monthlyAmountSlider.sendKeys("0.2");
+        } else {
+            WebElement slider = driver.findElement(By.id("com.safat.warbaib.uat:id/amountSeekbar"));
+            int start = slider.getLocation().getX();
+            int end = slider.getSize().getWidth();
+            int y = slider.getLocation().getY();
+            TouchAction action = new TouchAction(driver);
+            //act.press(ElementOption.element(slider)).moveTo(ElementOption.element(slider,10,10)).release().perform();
+            action.longPress(ElementOption.element(slider)).moveTo(ElementOption.element(slider, 1, 1)).release().perform();
+        }
         //monthlyAmountSlider.sendKeys("0.0");
 
     }
 
+    @Then("user clicks on continue button under jameya")
+    public void user_Clicks_On_Continue_Button_under_jameya() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            continueBtn.click();
+        } else {
+            screenNext.click();
+        }
+    }
+
     @And("user clicks on day selector and confirm the first value")
-    public void user_Clicks_On_Day_Selector_And_Confirm_The_First_Value() {
-        distributionMonth.click();
-        keyDone.click();
+    public void user_Clicks_On_Day_Selector_And_Confirm_The_First_Value() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
+            distributionMonth.click();
+            keyDone.click();
+        } else {
+            andrDone.click();
+        }
     }
 
     @When("user clicks on Choose dates link")
@@ -154,40 +222,44 @@ public class CreateJameyaSteps {
     }
 
     @And("user clicks on each available month to select participants")
-    public void user_Clicks_On_Each_Available_Month_To_Select_Participant() {
+    public void user_Clicks_On_Each_Available_Month_To_Select_Participant() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS")) {
             util.selectParticipants();
-
+        } else {
+            util.andrSelectParticipants();
+        }
     }
 
     @And("user confirms pay out day")
-    public void user_Confirms_PayOut_Day() throws InterruptedException {
-        util.nextScroll(payoutPicker,0);
-        keyDone.click();
-        hold(30);
+    public void user_Confirms_PayOut_Day() throws InterruptedException, IOException {
+        if (get("TESTING_PLATFORM").equals("IOS"))
+        {
+            util.nextScroll(payoutPicker, 0);
+            keyDone.click();
+            hold(30);
+        } else
+        {
+            andrPayoutPicker.click();
+            andrDone.click();
+        }
     }
 
     @When("user clicks on cancel to cancel jameya")
-    public void user_clicks_on_cancel_to_cancel_jameya()
-    {
-        util.waitForElementToBeClickable(cancelJameya,30);
+    public void user_clicks_on_cancel_to_cancel_jameya() {
+        util.waitForElementToBeClickable(cancelJameya, 30);
         cancelJameya.click();
     }
 
     @And("user confirms the cancellation")
-    public void user_confirms_the_cancellation()
-    {
+    public void user_confirms_the_cancellation() {
         confirmCancellationBtn.click();
     }
 
     @And("user selects the created jameya")
-    public void user_selects_the_created_jameya()
-    {
-        util.waitForElementToBeClickable(anyJameya,10);
+    public void user_selects_the_created_jameya() {
+        util.waitForElementToBeClickable(anyJameya, 10);
         anyJameya.click();
     }
-
-
-
 
 
 }

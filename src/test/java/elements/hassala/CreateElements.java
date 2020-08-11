@@ -89,6 +89,8 @@ public class CreateElements {
     @AndroidFindBy(id = "com.safat.warbaib.uat:id/skip")
     public static WebElement andrSkipPhoto;
 
+    //@AndroidFindBy(id = "com.android.packageinstaller:id/permission_allow_button")
+    @AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
     @iOSXCUITFindBy(accessibility = "OK")
     public static WebElement allowPhAccess;
 

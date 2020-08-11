@@ -24,9 +24,16 @@ public class JoinJameyaSteps {
 
 
     @And("user scrolls down to the available jameya")
-    public void user_scrolls_down_to_the_available_jameya()
-    {
-        util.swipeUntilElementIsDisplayed(joinJameya,310,500,310,300,2);
+    public void user_scrolls_down_to_the_available_jameya() throws IOException {
+        if (get("TESTING_PLATFORM").equals("IOS"))
+        {
+            util.swipeUntilElementIsDisplayed(joinJameya,310,500,310,300,2);
+
+        } else if (get("TESTING_PLATFORM").equals("Android"))
+        {
+            util.swipeByCoordinates(780, 1500, 780, 1000, 2);
+            util.swipeByCoordinates(780, 1500, 780, 740, 2);
+        }
     }
 
     @When("user clicks on join button to join jameya")

@@ -18,6 +18,7 @@ Feature: This feature is for allowing user to login successfully to Warba bankin
     Then password screen displays
     When user enters his password as "passw0rd"
     And user clicks on next button After Password
+    And user selects "Warba" app
     Then user skips the tutorial
     Then user clicks on logout icon
 

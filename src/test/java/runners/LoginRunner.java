@@ -16,8 +16,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
         tags = {
-
-            "@CreateHassala"
+            "@AcceptJameya1"
 //                 + " or @CreateJameya"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"

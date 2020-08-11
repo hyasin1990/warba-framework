@@ -5,7 +5,7 @@ Feature: As a host I should be able to create jameya
     Given send notification was shown to user and he allows it
     When user swipes under get started screen and hits get started button
     Then user clicks on login button
-    When user enters username as "jamuser27"
+    When user enters username as "warba11"
     And  user clicks on date of birth field
     And user selects date of birth as "16" of "Jun"
     And user clicks on login button
@@ -44,11 +44,11 @@ Feature: As a host I should be able to create jameya
     And user clicks on continue to confirm invitations
     And user selects monthly amount
     And user clicks on day selector and confirm the first value
-    And user clicks on select account link
+#   And user clicks on select account link
     Then user selects an account
     When user clicks on Choose dates link
     And user clicks on each available month to select participants
-    Then user clicks on continue button
+    Then user clicks on continue button under jameya
     And user confirms pay out day
     When user clicks on select account link
     And user selects an account

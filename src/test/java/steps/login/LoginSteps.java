@@ -130,6 +130,18 @@ public class LoginSteps {
         }
     }
 
+    @And("^user selects \"(.*)\" app$")
+    public void user_selects_app(String app)
+    {
+        if (app.equals("Warba"))
+        {
+            warbaTab.click();
+        } else if (app.equals("Youth"))
+        {
+            youthTab.click();
+        }
+    }
+
 
     @Then("user skips the tutorial")
     public void userSkipsTheTutorial() throws IOException {

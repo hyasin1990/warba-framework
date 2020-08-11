@@ -4,7 +4,7 @@ Feature: As a user, I should be able to add Kharda funding method
     Given send notification was shown to user and he allows it
     When user swipes under get started screen and hits get started button
     Then user clicks on login button
-    When user enters username as "jamuser27"
+    When user enters username as "jamuser28"
     And  user clicks on date of birth field
     And user selects date of birth as "16" of "Jun"
     And user clicks on login button

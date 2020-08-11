@@ -1,11 +1,11 @@
 
-rsquid:UselessImportCheck"GRemove this unused import 'org.openqa.selenium.NoSuchElementException'.(“®ü‰8Â††½¢.
-ssquid:UselessImportCheck"CRemove this unused import 'sun.management.snmp.jvminstr.JvmOSImpl'.(ô§°Âøÿÿÿÿ8ÌĞƒØ¦.
-bsquid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8·ƒ„Ø¦.
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(¬œ«+8³˜­ü­.
 _squid:UselessImportCheck"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8¯‚µŒ¢.
+bsquid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8·ƒ„Ø¦.
+ssquid:UselessImportCheck"CRemove this unused import 'sun.management.snmp.jvminstr.JvmOSImpl'.(ô§°Âøÿÿÿÿ8ÌĞƒØ¦.
+rsquid:UselessImportCheck"GRemove this unused import 'org.openqa.selenium.NoSuchElementException'.(“®ü‰8Â††½¢.
 jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(â‘¾•üÿÿÿÿ
-dsquid:UselessImportCheck	"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8¯‚µŒ¢.
-Vsquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü8·ƒ„Ø¦.
 Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(ô§°Âøÿÿÿÿ8×‰óË©.
+Vsquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü8·ƒ„Ø¦.
+dsquid:UselessImportCheck	"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8¯‚µŒ¢.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(”ïŠ8€ÿíº³.

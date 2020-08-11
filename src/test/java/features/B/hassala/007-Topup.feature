@@ -4,7 +4,7 @@ Feature: This feature is for topping up any created hassala
     Given send notification was shown to user and he allows it
     When user swipes under get started screen and hits get started button
     Then user clicks on login button
-    When user enters username as "jamuser27"
+    When user enters username as "jamuser28"
     And  user clicks on date of birth field
     And user selects date of birth as "16" of "Jun"
     And user clicks on login button
@@ -34,7 +34,6 @@ Feature: This feature is for topping up any created hassala
     Then user gets redirected to hasssala screen to check if the amount
     When user clicks on close button to get redirected to home
     Then user clicks on logout icon
-
 
 
     Examples:

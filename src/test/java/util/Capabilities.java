@@ -42,7 +42,7 @@ public class Capabilities {
 
     public static AppiumDriver getAndroidDriver() throws IOException {
         driver = new AndroidDriver(new URL(get("ANDROID_URL")), capabilities);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
 

@@ -131,20 +131,20 @@ public class CreateSteps {
 
     @And("user allows access permission if displayed")
     public void user_Allows_Access_Permission() throws IOException {
-        if (get("TESTING_PLATFORM").equals("IOS")&&get("NO_RESET").equals("false")) {
+        util.clickOnElementIfDisplayed(allowPhAccess);
+       /* if (get("TESTING_PLATFORM").equals("IOS")&&get("NO_RESET").equals("false")) {
             allowPhAccess.click();
         } else
         {
             util.clickOnElementIfDisplayed(allowPhAccess);
-
-        }
+        }*/
     }
 
     @And("user clicks on all photos tab from photos gallery")
     public void user_Clicks_On_All_Photos_Tab_From_Photos_Gallery() throws IOException, InterruptedException {
         if (get("TESTING_PLATFORM").equals("IOS")) {
-            hold(30);
             allPhotos.click();
+            util.clickOnElementIfDisplayed(allPhotos);
         }
     }
 

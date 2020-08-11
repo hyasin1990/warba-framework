@@ -73,6 +73,9 @@ public class LoginElements {
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"Done\"]")
     public static WebElement keyDone;
 
+    @AndroidFindBy(id = "com.safat.warbaib.uat:id/button_done")
+    public static WebElement andrDone;
+
     @AndroidFindBy(accessibility = "button_next")
     @iOSXCUITFindBy(accessibility = "button_next")
     public static WebElement nextBtn;
@@ -86,6 +89,13 @@ public class LoginElements {
     @AndroidFindBy(id = "com.safat.warbaib.uat:id/etPassword")
     @iOSXCUITFindBy(accessibility = "textField_password")
     public static WebElement passTxt;
+
+    @iOSXCUITFindBy(accessibility = "Youth")
+    public static WebElement youthTab;
+
+    @iOSXCUITFindBy(accessibility = "Warba")
+    public static WebElement warbaTab;
+
 
     // App Home Screen
 

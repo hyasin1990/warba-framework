@@ -879,6 +879,16 @@ public class Util {
 
     }
 
+    public void andrSelectParticipants () {
+        List<WebElement> list = driver.findElementsById("com.safat.warbaib.uat:id/tvMonthName");
+        for (int i = 0; i < list.size(); i++) {
+            list.get(i).click();
+            List<WebElement> participants = driver.findElementsByClassName("android.widget.TextView");
+            participants.get(2).click();
+        }
+    }
+
+
     /* To get the Y axis of any given element */
     public int generateY(WebElement element) {
         Point point = element.getLocation();

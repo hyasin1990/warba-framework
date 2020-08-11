@@ -70,7 +70,7 @@ public class AddSaveAsSteps {
 
     @And("user clicks on select account link")
     public void user_Clicks_On_Select_Account_Link() throws IOException {
-            selectAccountLink.click();
+        selectAccountLink.click();
     }
 
 

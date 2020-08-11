@@ -12,7 +12,7 @@ import lombok.extern.log4j.Log4j2;
 @CucumberOptions(
         features = "src/test/java/features",
         tags = {
-                "@RemoveSweep"
+                "@CreateJameya"
 //                 + " or @CreateJameya"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
