@@ -112,24 +112,30 @@ public class CreateJameyaElements {
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@label='Yes, cancel']")
     public static WebElement confirmCancellationBtn;
 
+    @AndroidFindBy(id = "com.safat.warbaib.uat:id/total_jameya")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Total Jam3eya']")
     public static WebElement anyJameya;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Start Jam3eya']")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Start Jam3eya']")
     public static WebElement startJameyaBtn;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Confirm']")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"Confirm\"]")
     public static List<WebElement> confParticipants;
 
     @iOSXCUITFindBy(accessibility = "textField_answer")
     public static WebElement otpField;
 
+    @AndroidFindBy(id = "com.safat.warbaib.uat:id/ivActionIcon1")
     @iOSXCUITFindBy(accessibility = "jameya.appbar")
     public static WebElement jameyaDotsMenu;
 
+    @AndroidFindBy(id= "com.safat.warbaib.uat:id/tvDelete")
     @iOSXCUITFindBy(accessibility = "Delete Jameya")
     public static WebElement deleteJameya;
 
+    @AndroidFindBy(id = "com.safat.warbaib.uat:id/btn_primary")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@label='Continue']")
     public static WebElement continueDelete;
 

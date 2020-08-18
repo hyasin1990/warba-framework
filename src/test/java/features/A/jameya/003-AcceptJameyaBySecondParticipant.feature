@@ -28,9 +28,10 @@ Feature: As a second participant I should be able to join jameya
     When user scrolls under terms and conditions screen
     And user accepts terms and conditions
     And user selects an account
+    And android delay
     And user selects an account
-    And user confirms pay out day
-#####    And user clicks on the purpose list to invoke it
+    And user confirms pay out day for joining
+### And user clicks on the purpose list to invoke it
     And user selects a purpose of the jameya as "Travel"
     And user clicks on upload a photo link
     And user clicks on choose from camera roll
@@ -38,8 +39,8 @@ Feature: As a second participant I should be able to join jameya
     And user clicks on all photos tab from photos gallery
     And user selects any photo to replace the current
     And clicks on choose to confirm it
-    Then user clicks on join button to join jameya
-    Then user gets redirected to success screen
-    And user clicks on done
-    And user clicks on back to navigate back to home screen
+    Then user clicks on join button to join jameya by participant
+    Then user gets redirected to success screen upon joining
+    And user clicks on done button under success
+    And user clicks on back to navigate back to home screen after joining
     And user clicks on logout icon

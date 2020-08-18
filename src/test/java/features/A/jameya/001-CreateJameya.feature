@@ -55,7 +55,7 @@ Feature: As a host I should be able to create jameya
     And user clicks on confirm button
     Then user gets redirected to success screen
     And user clicks on done
-    And user clicks on logout icon
+#    And user clicks on logout icon
 
 
 

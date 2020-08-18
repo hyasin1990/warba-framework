@@ -2,80 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4c57cd-9f32-4d81-8026-e1f0492a5806" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09b83e21476812c540ecda38ed86fef5c627971a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e3a8c5da3450b81c8d396b87f372895fcdeaefc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fcfbdd2b43d197e3e29f1a70c18cb5fa264b76c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45b1ca4e675deceb323061167fcb4d99f10c1169" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d1a96bc79f1d3fbdd936276e6c6123583f947ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/525709d632c4d9549a9752d65e8330dc2263eb4f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/525709d632c4d9549a9752d65e8330dc2263eb4f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75741b5713c1cc2d47c47b9a1db695657b9d2d16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/760cddad1fbb4dee0fb2cf901f32eee5cbbada5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78c16d8a9195d409176d5d7b667817bc34fcadc9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87bb884b1040012d0f6f36c28cc15936f8e47b64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/929541cd44faa8ee39af2878c68fee4fccdd45a4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/929541cd44faa8ee39af2878c68fee4fccdd45a4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a861620060239b9df390038dd025e8e8c6975fca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b07db9218d28a42293d185c3f6d8a49f38c21daf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2b0effb3e0a0e4d5bffb6564c4c3e2e34317498" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baa1e479486acd01f074b2f9caf227a8cd66feda" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb1d831badc6f545b7aa7e06dc64f3fd1a91679f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc97fba406b32828ac7f2c95dab7481bc03ad22f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0ad6766a8e630730ac406ea2a4165146344533c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0ad6766a8e630730ac406ea2a4165146344533c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d80bd949237d9e654b149f3d3523e20c31303e7d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efab13b16c2867d4c2aabc490490ed26c75e7b15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efd783ad172336f94470f0db4f41ecdb9e9ce1ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1c5ce8b123bdafba37aff0424474dd910ad6b49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6629267b92b396a434079d38d7f5d830bd8e5b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fce7e436ae599d42ba1448f4c4dbfdfd1e13b227" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AppProperties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AppProperties.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Reports/TestingReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Reports/TestingReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ScreenShots/Add sweep to any created hassala  09:37 .jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ScreenShots/Add sweep to any created hassala  09:45 .jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/hassala/CreateElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/hassala/CreateElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/hassala/TopUpElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/hassala/TopUpElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/jameya/CreateJameyaElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/jameya/CreateJameyaElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/login/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/login/LoginElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/A/jameya/001-CreateJameya.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/A/jameya/001-CreateJameya.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/A/jameya/002-AcceptJameyaByFirstParticipant.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/A/jameya/002-AcceptJameyaByFirstParticipant.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/A/jameya/003-AcceptJameyaBySecondParticipant.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/A/jameya/003-AcceptJameyaBySecondParticipant.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/A/jameya/004-StartJameyaByHost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/A/jameya/004-StartJameyaByHost.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/A/jameya/005-DeleteJameyabyHost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/A/jameya/005-DeleteJameyabyHost.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/006-CreateHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/006-CreateHassala.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/007-Topup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/007-Topup.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/008-AddKharda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/008-AddKharda.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/009-RemoveKharda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/009-RemoveKharda.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/012-AddAutomated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/012-AddAutomated.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/013-RemoveAutomated.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/013-RemoveAutomated.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/014-AddSweep.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/014-AddSweep.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/015-RemoveSweep.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/015-RemoveSweep.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/016-ManageHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/016-ManageHassala.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/017-ViewAllScreen.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/017-ViewAllScreen.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/019-WithdrawSavings.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/019-WithdrawSavings.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/020-BreakHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/020-BreakHassala.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/021-BreakZeroHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/021-BreakZeroHassala.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/login/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/login/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/LoginRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/LoginRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/hassala/AddSaveAsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/hassala/AddSaveAsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/hassala/CreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/hassala/CreateSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/jameya/JoinJameyaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/jameya/JoinJameyaSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/Capabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Capabilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/html-reports/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/hassala/CreateElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/hassala/CreateElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/hassala/TopUpElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/hassala/TopUpElements.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/elements/jameya/CreateJameyaElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/jameya/CreateJameyaElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/login/LoginElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/login/LoginElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/hassala/CreateSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/hassala/CreateSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/jameya/CreateJameyaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/jameya/CreateJameyaSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/jameya/JoinJameyaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/jameya/JoinJameyaSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/login/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/login/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Capabilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Capabilities.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,19 +352,19 @@
       <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state x="100" y="123" width="1480" height="748" key="DiffContextDialog/0.23.1680.948@0.23.1680.948" timestamp="1589639858178" />
-    <state width="1680" height="211" key="GridCell.Tab.0.bottom" timestamp="1597147122009">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1680" height="211" key="GridCell.Tab.0.bottom" timestamp="1597488849073">
+      <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="1680" height="321" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595050475371" />
     <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.948@0.23.1680.948" timestamp="1593782529999" />
     <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.951@0.23.1680.951" timestamp="1594369992514" />
-    <state width="1680" height="189" key="GridCell.Tab.0.bottom/0.23.1680.953@0.23.1680.953" timestamp="1594474790914" />
-    <state width="1680" height="166" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1597058694945" />
-    <state width="1680" height="211" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1597147122009" />
+    <state width="1680" height="211" key="GridCell.Tab.0.bottom/0.23.1680.953@0.23.1680.953" timestamp="1597316844124" />
+    <state width="1680" height="211" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1597321258628" />
+    <state width="1680" height="211" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1597321484618" />
     <state width="1680" height="211" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1597146117918" />
     <state width="1680" height="211" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1597144595699" />
     <state width="1680" height="167" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1595933268039" />
-    <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1593688697781" />
+    <state width="1680" height="211" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1597488849073" />
     <state width="1680" height="192" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1593687988507" />
     <state width="1680" height="167" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1596523543234" />
     <state width="1920" height="195" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1591611602683" />
@@ -430,19 +377,19 @@
     <state width="1680" height="166" key="GridCell.Tab.0.bottom/1680.146.1920.1057/0.23.1680.957@0.23.1680.957" timestamp="1594877993159" />
     <state width="1920" height="189" key="GridCell.Tab.0.bottom/1680.146.1920.1057/0.23.1680.957@1680.146.1920.1057" timestamp="1594704670107" />
     <state width="1680" height="189" key="GridCell.Tab.0.bottom/1680.146.1920.1057/0.23.1680.959@0.23.1680.959" timestamp="1594615035752" />
-    <state width="1680" height="211" key="GridCell.Tab.0.center" timestamp="1597147122008">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1680" height="211" key="GridCell.Tab.0.center" timestamp="1597488849072">
+      <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="1680" height="321" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595050475370" />
     <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.948@0.23.1680.948" timestamp="1593782529998" />
     <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.951@0.23.1680.951" timestamp="1594369992513" />
-    <state width="1680" height="189" key="GridCell.Tab.0.center/0.23.1680.953@0.23.1680.953" timestamp="1594474790913" />
-    <state width="1680" height="166" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1597058694944" />
-    <state width="1680" height="211" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1597147122008" />
+    <state width="1680" height="211" key="GridCell.Tab.0.center/0.23.1680.953@0.23.1680.953" timestamp="1597316844123" />
+    <state width="1680" height="211" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1597321258627" />
+    <state width="1680" height="211" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1597321484617" />
     <state width="1680" height="211" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1597146117917" />
     <state width="1680" height="211" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1597144595699" />
     <state width="1680" height="167" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1595933268038" />
-    <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1593688697780" />
+    <state width="1680" height="211" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1597488849072" />
     <state width="1680" height="192" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1593687988506" />
     <state width="1680" height="167" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1596523543233" />
     <state width="1920" height="195" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1591611602682" />
@@ -455,19 +402,19 @@
     <state width="1680" height="166" key="GridCell.Tab.0.center/1680.146.1920.1057/0.23.1680.957@0.23.1680.957" timestamp="1594877993158" />
     <state width="1920" height="189" key="GridCell.Tab.0.center/1680.146.1920.1057/0.23.1680.957@1680.146.1920.1057" timestamp="1594704670106" />
     <state width="1680" height="189" key="GridCell.Tab.0.center/1680.146.1920.1057/0.23.1680.959@0.23.1680.959" timestamp="1594615035750" />
-    <state width="1680" height="211" key="GridCell.Tab.0.left" timestamp="1597147122008">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1680" height="211" key="GridCell.Tab.0.left" timestamp="1597488849072">
+      <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="1680" height="321" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595050475369" />
     <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.948@0.23.1680.948" timestamp="1593782529998" />
     <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.951@0.23.1680.951" timestamp="1594369992513" />
-    <state width="1680" height="189" key="GridCell.Tab.0.left/0.23.1680.953@0.23.1680.953" timestamp="1594474790913" />
-    <state width="1680" height="166" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1597058694944" />
-    <state width="1680" height="211" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1597147122008" />
+    <state width="1680" height="211" key="GridCell.Tab.0.left/0.23.1680.953@0.23.1680.953" timestamp="1597316844122" />
+    <state width="1680" height="211" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1597321258627" />
+    <state width="1680" height="211" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1597321484616" />
     <state width="1680" height="211" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1597146117917" />
     <state width="1680" height="211" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1597144595698" />
     <state width="1680" height="167" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1595933268038" />
-    <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1593688697779" />
+    <state width="1680" height="211" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1597488849072" />
     <state width="1680" height="192" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1593687988506" />
     <state width="1680" height="167" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1596523543232" />
     <state width="1920" height="195" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1591611602681" />
@@ -480,19 +427,19 @@
     <state width="1680" height="166" key="GridCell.Tab.0.left/1680.146.1920.1057/0.23.1680.957@0.23.1680.957" timestamp="1594877993158" />
     <state width="1920" height="189" key="GridCell.Tab.0.left/1680.146.1920.1057/0.23.1680.957@1680.146.1920.1057" timestamp="1594704670106" />
     <state width="1680" height="189" key="GridCell.Tab.0.left/1680.146.1920.1057/0.23.1680.959@0.23.1680.959" timestamp="1594615035750" />
-    <state width="1680" height="211" key="GridCell.Tab.0.right" timestamp="1597147122008">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1680" height="211" key="GridCell.Tab.0.right" timestamp="1597488849072">
+      <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="1680" height="321" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595050475370" />
     <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.948@0.23.1680.948" timestamp="1593782529999" />
     <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.951@0.23.1680.951" timestamp="1594369992514" />
-    <state width="1680" height="189" key="GridCell.Tab.0.right/0.23.1680.953@0.23.1680.953" timestamp="1594474790914" />
-    <state width="1680" height="166" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1597058694944" />
-    <state width="1680" height="211" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1597147122008" />
+    <state width="1680" height="211" key="GridCell.Tab.0.right/0.23.1680.953@0.23.1680.953" timestamp="1597316844123" />
+    <state width="1680" height="211" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1597321258628" />
+    <state width="1680" height="211" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1597321484617" />
     <state width="1680" height="211" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1597146117918" />
     <state width="1680" height="211" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1597144595699" />
     <state width="1680" height="167" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1595933268039" />
-    <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1593688697780" />
+    <state width="1680" height="211" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1597488849072" />
     <state width="1680" height="192" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1593687988507" />
     <state width="1680" height="167" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1596523543233" />
     <state width="1920" height="195" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1591611602682" />
@@ -554,6 +501,10 @@
     </state>
     <state x="328" y="77" key="SettingsEditor/0.23.1680.948@0.23.1680.948" timestamp="1590444473348" />
     <state x="328" y="77" key="SettingsEditor/0.23.1680.951@0.23.1680.951" timestamp="1593783773641" />
+    <state x="440" y="240" key="Vcs.Push.Dialog.v2" timestamp="1597304529192">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="440" y="240" key="Vcs.Push.Dialog.v2/0.23.1680.957@0.23.1680.957" timestamp="1597304529192" />
     <state x="517" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1596694001404">
       <screen x="0" y="23" width="1680" height="961" />
     </state>

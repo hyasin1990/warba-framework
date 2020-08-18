@@ -20,11 +20,12 @@ Feature: As a host I should be able to delete jameya
   Scenario: Deleting any created jameya after accepting it by participants
 
     Given user clicks on my social circle tab
+    And user scrolls down to the available jameya
     When user selects the created jameya
     And user clicks on jameya dots menu
     Then user clicks on delete jameya tab
     And user clicks on continue button to delete jameya
-    And user clicks on back to navigate back to home screen
+    And user clicks on back to navigate back to home screen after deleting jameya
     And user clicks on logout icon
 
 

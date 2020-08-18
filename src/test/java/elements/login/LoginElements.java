@@ -81,7 +81,6 @@ public class LoginElements {
     public static WebElement nextBtn;
 
     // Password screen
-    //@AndroidFindBy(id = "com.safat.warbaib.uat:id/textViewHeaderSubTitle")
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Enter password']")
     @iOSXCUITFindBy(accessibility = "Warba_Online.PasswordValidationView")
     public static WebElement passTitle;

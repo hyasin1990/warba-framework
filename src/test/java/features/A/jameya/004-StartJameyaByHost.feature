@@ -21,13 +21,14 @@ Feature: As a host I should be able to start jameya
   Scenario: Starting jameya by host
 
     Given user clicks on my social circle tab
+    And user scrolls down to the available jameya
     When user selects the created jameya
     And user clicks on start jameya button
     And user confirms both participants details
     And user clicks on start jameya button
     Then user clicks on the OTP field to start typing it
-    And user enters OTP as "111111"
+    And user enters OTP as "1111111"
     Then user clicks on next button
-    And user clicks on back to navigate back to home screen
+    And user clicks on back to navigate back to home screen after starting jameya
     And user clicks on logout icon
 

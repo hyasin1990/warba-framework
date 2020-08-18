@@ -50,6 +50,9 @@ public class TopUpElements {
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@value='Success']")
     public static WebElement successTxt;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Success']")
+    public static WebElement successTxtAndroid;
+
 
 
 

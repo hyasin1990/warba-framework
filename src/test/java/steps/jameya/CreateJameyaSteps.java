@@ -71,10 +71,11 @@ public class CreateJameyaSteps {
 
 
     @When("user scrolls under terms and conditions screen")
-    public void user_Scrolls_Under_Terms_And_Conditions_Screen() throws IOException {
+    public void user_Scrolls_Under_Terms_And_Conditions_Screen() throws IOException, InterruptedException {
         if (get("TESTING_PLATFORM").equals("IOS")) {
             util.swipeUntilElementIsDisplayed(acceptBtn, 366, 720, 366, 350, 2);
         } else if (get("TESTING_PLATFORM").equals("Android")) {
+            hold(3000);
             for (int i = 0; i < 10; i++) {
                 util.swipeByCoordinates(900, 1270, 900, 30, 2);
             }
@@ -175,7 +176,11 @@ public class CreateJameyaSteps {
     }
 
     @And("user clicks on continue to confirm invitations")
-    public void user_Clicks_On_Continue_To_Confirm_Invitations() {
+    public void user_Clicks_On_Continue_To_Confirm_Invitations() throws IOException {
+//        if (get("TESTING_PLATFORM").equals("IOS"))
+//        {
+//            continueDiscBtn.click();
+//        }
         continueDiscBtn.click();
     }
 
@@ -259,6 +264,18 @@ public class CreateJameyaSteps {
     public void user_selects_the_created_jameya() {
         util.waitForElementToBeClickable(anyJameya, 10);
         anyJameya.click();
+        util.clickOnElementIfDisplayed(tutSkip);
+
+    }
+
+    @And("user clicks on back to navigate back to home screen after starting jameya")
+    public void user_Clicks_On_Back_To_Navigate_Back_To_Home_Screen() throws IOException {
+
+        if (get("TESTING_PLATFORM").equals("IOS"))
+        {
+            util.waitForElementToBeClickable(screenBack, 40);
+            screenBack.click();
+        }
     }
 
 
