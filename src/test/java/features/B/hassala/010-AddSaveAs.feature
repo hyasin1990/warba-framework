@@ -14,6 +14,7 @@ Feature: As a user, I should be able to add save as you spend funding method
     Then password screen displays
     When user enters his password as "passw0rd"
     And user clicks on next button After Password
+    And user selects "Warba" app
     Then user skips the tutorial
 
   @AddSaveAs

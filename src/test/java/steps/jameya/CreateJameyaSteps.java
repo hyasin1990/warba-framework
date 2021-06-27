@@ -12,6 +12,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.bson.io.BsonOutput;
 import org.openqa.selenium.By;
+import org.openqa.selenium.InvalidElementStateException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
@@ -104,16 +105,13 @@ public class CreateJameyaSteps {
 
     }
 
-    @And("^user selects a purpose of the jameya as \"(.*)\"$")
-    public void user_Selects_A_Purpose_Of_The_Jameya_As(String purpose) throws InterruptedException, IOException {
-//         List<WebElement> elements = driver.findElements(By.xpath("//XCUIElementTypeTextField"));
-//         for (int i=0;i<elements.size();i++)
-//         {
-//             System.out.println(elements.get(i).getAttribute("name"));
-//         }
+    @And("^user selects a purpose as \"(.*)\"$")
+    public void user_Selects_A_Purpose_As(String purpose) throws InterruptedException, IOException {
+
 
         // *** TRY TO INVOKE THE PREVIOUS LIST ONCE AGAIN AND CONFIRM IT THEN REOPEN THIS LIST
         if (get("TESTING_PLATFORM").equals("IOS")) {
+            hold(20);
             util.clickOnElementIfDisplayed(purposeList);
             util.selectPurpose(purpose);
             keyDone.click();

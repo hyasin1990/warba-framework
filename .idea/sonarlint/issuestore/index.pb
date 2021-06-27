@@ -138,3 +138,11 @@ b
 2src/test/java/features/B/hassala/007-Topup.feature,8/d/8dd1e78dab837ef5cacf0f6366e883770db3ada2
 h
 8src/test/java/features/A/jameya/001-CreateJameya.feature,f/2/f25ff215e81517c179832f5e913b943c7269851b
+V
+&src/main/java/testing/myTestClass.java,c/0/c00dbfde564620169dfbb4830205adca0da6eb13
+l
+<src/test/java/elements/standingorder/CreateSelfElements.java,f/5/f57e4950624e93cb675ee1a4beeedc828bbb51de
+q
+Asrc/test/java/features/C/standingorder/CreateSelfStanding.feature,5/5/55f4675a8bc4a1086ff70d3f04a0d6f87ac856dc
+j
+:src/test/java/steps/standingorder/CreateStandingSteps.java,1/8/185e10ecc803f6560052182ddcde19a4143f1d93

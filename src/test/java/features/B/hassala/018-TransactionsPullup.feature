@@ -14,6 +14,7 @@ Feature: This feature is for checking transactions displayed under hassala pull 
     Then password screen displays
     When user enters his password as "passw0rd"
     And user clicks on next button After Password
+    And user selects "Warba" app
     Then user skips the tutorial
 
 

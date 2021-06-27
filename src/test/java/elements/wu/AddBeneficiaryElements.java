@@ -1,4 +1,4 @@
-package elements.standingorder;
+package elements.wu;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -6,52 +6,81 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class CreateSelfElements {
+import java.util.List;
+
+public class AddBeneficiaryElements {
 
     private AppiumDriver driver;
-    public CreateSelfElements(AppiumDriver driver) {
+    public AddBeneficiaryElements(AppiumDriver driver) {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    @iOSXCUITFindBy(accessibility = "Services")
-    public static WebElement servicesIcon;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Beneficiaries']")
+    public static WebElement BeneficiariesTab;
 
-    @iOSXCUITFindBy(accessibility = "Standing Orders")
-    public static WebElement standingIcon;
+   // @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Add a new beneficiary']")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[contains(@value,'Add')]")
+    public static WebElement addNewBeneficiaryButton;
 
-    @iOSXCUITFindBy(accessibility = "Western Union")
-    public static WebElement wuIcon;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='First Name']")
+    public static WebElement firstNameField;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Create transfer Standing Orders']")
-    public static WebElement createStandingTab;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Middle Name']")
+    public static WebElement middleNameField;
 
-    @iOSXCUITFindBy(accessibility = "Myself")
-    public static WebElement mySelfIcon;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Last Name']")
+    public static WebElement lastNameField;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Input a transfer amount']")
-    public static WebElement standingAmount;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Next']")
+    public static WebElement convNext;
 
-    @iOSXCUITFindBy(accessibility = "Daily")
-    public static WebElement dailyStanding;
+    @iOSXCUITFindBy(accessibility = "Select Country")
+    public static WebElement selectCountryLink;
 
-    @iOSXCUITFindBy(accessibility = "Monthly")
-    public static WebElement monthlyStanding;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Search']")
+    public static WebElement searchField;
 
-    @iOSXCUITFindBy(accessibility = "Yearly")
-    public static WebElement yearlyStanding;
+    @iOSXCUITFindBy(className = "XCUIElementTypeStaticText")
+    public static List<WebElement> searchedCountry;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Please specify start date']")
-    public static WebElement standingStartDate;
+    @iOSXCUITFindBy(accessibility = "Select Nationality")
+    public static WebElement selectNationalityLink;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Number of transfers']")
-    public static WebElement numberOfTransfers;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='Enter description']")
+    public static WebElement descriptionField;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@value='This is for your reference']")
-    public static WebElement standingDescription;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Review']")
+    public static WebElement reviewWuAddBeneficiary;
 
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Create']")
-    public static WebElement createStandingButton;
+
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Add Beneficiary']")
+    public static WebElement addBeneficiaryButton;
+
+
+    @iOSXCUITFindBy(className = "XCUIElementTypeTextField")
+    public static WebElement otpField;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Activate']")
+    public static WebElement activateButton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

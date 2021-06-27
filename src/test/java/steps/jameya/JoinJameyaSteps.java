@@ -18,6 +18,7 @@ import static elements.hassala.TopUpElements.successTxt;
 import static elements.hassala.TopUpElements.successTxtAndroid;
 import static elements.jameya.CreateJameyaElements.*;
 import static elements.login.LoginElements.*;
+import static elements.login.LoginElements.otpField;
 import static util.GeneralUtil.get;
 import static util.Util.hold;
 

@@ -31,7 +31,7 @@ public class CreateSteps {
     public void user_Scrolls_Down_To_Hassalaty_Section() throws IOException {
 
         if (get("TESTING_PLATFORM").equals("IOS")) {
-            util.swipeUntilElementIsDisplayed(termTitleTxt, 20, 550, 20, 340, 2); // changed to 340 previously was 350
+            util.swipeUntilElementIsDisplayed(termTitleTxt, 20, 550, 20, 340, 2);
         } else if (get("TESTING_PLATFORM").equals("Android")) {
             util.andrScrollUntilTextIsDisplayed("My Term Deposits");
         }
@@ -178,7 +178,7 @@ public class CreateSteps {
 
     @And("^user enters the amount as \"(.*)\"$")
     public void user_Enters_The_Amount(String amount) throws InterruptedException, IOException {
-       util.enterAmountBaseOnGivenStringAmount(amount);
+        util.enterAmountBaseOnGivenStringAmount(amount);
         if (get("TESTING_PLATFORM").equals("IOS")) {
             keyDone.click();
         } else if (get("TESTING_PLATFORM").equals("Android")) {
@@ -194,13 +194,6 @@ public class CreateSteps {
         } else if (get("TESTING_PLATFORM").equals("Android")) {
             driver.hideKeyboard();
             andrPickerArrow.click();
-
-            // Below are temporary and will be removed and function activated once developer let the picker return values
-          //  util.swipeByCoordinates(200, 1700, 200, 1268,1);
-         //   util.swipeByCoordinates(462, 1700, 462, 1608,1);
-         //   util.swipeByCoordinates(880, 1700, 880, 1560,1);
-
-            //util.andrSelectGoalDate(day,month,year,hssalaAndrDatePicker);
         }
         keyDone.click();
 
@@ -221,12 +214,8 @@ public class CreateSteps {
         if (get("TESTING_PLATFORM").equals("IOS")) {
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             util.swipeUntilElementIsDisplayed(acceptTermsBtn, 19, 650, 18, 100, 2);
-            //util.swipeByCoordinates(19, 650, 18, 100, 2);
-
-
         }
     }
-
 
     @When("user accepts the terms")
     public void user_Accepts_The_Terms() {
@@ -254,9 +243,8 @@ public class CreateSteps {
     public void user_Clicks_On_Back_To_Navigate_Back_To_Home_Screen() throws IOException {
         util.waitForElementToBeClickable(screenBack, 40);
         screenBack.click();
-        if (get("TESTING_PLATFORM").equals("Android"))
-        {
-            util.waitForElementToBeClickable(screenBack,20);
+        if (get("TESTING_PLATFORM").equals("Android")) {
+            util.waitForElementToBeClickable(screenBack, 20);
             screenBack.click();
         }
     }

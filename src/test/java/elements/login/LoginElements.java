@@ -95,6 +95,16 @@ public class LoginElements {
     @iOSXCUITFindBy(accessibility = "Warba")
     public static WebElement warbaTab;
 
+    @iOSXCUITFindBy(accessibility = "textField_answer")
+    public static WebElement otpField;
+
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Unlink Device']")
+    public static WebElement unlinkDevice;
+
+    @iOSXCUITFindBy(accessibility = "Unlink Device")
+    public static WebElement unlinkConfirm;
+
+
 
     // App Home Screen
 
@@ -107,7 +117,7 @@ public class LoginElements {
     public static WebElement portfolioBtn;
 
     @AndroidFindBy(id = "com.safat.warbaib.uat:id/txtSkip")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"Skip\"]")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name='Skip']")
     public static WebElement tutSkip;
 
    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text,'Hassalaty')]")

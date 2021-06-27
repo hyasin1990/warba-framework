@@ -16,8 +16,8 @@ import org.junit.runner.RunWith;
         monochrome = true,
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
         tags = {
-            "@AcceptJameya1"
-//                 + " or @CreateJameya"
+                "@WUSendMoney"
+                //                + " or @Login"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
 //                + " or @StartJameya"
@@ -38,6 +38,9 @@ import org.junit.runner.RunWith;
 //                 + " or @Withdraw"
 //                 + " or @BreakHassala"
 //                 + " or @BreakZeroHassala"
+//                 + " or @CreateSelfStanding"
+//                 + " or @AddWuBeneficiary"
+//                 + " or @WUSendMoney"
         })
 
 //        tags = {

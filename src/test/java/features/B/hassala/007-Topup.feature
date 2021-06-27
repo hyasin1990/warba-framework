@@ -14,6 +14,7 @@ Feature: This feature is for topping up any created hassala
     Then password screen displays
     When user enters his password as "passw0rd"
     And user clicks on next button After Password
+    And user selects "Warba" app
     Then user skips the tutorial
 
 

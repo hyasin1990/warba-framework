@@ -33,18 +33,18 @@ public class Listeners implements ITestListener{
     public void onTestFailure(ITestResult result) {
         // TODO Auto-generated method stub
 
-
-        //String s= result.getName();
-       // String s=result.getTestContext().getName(); // Hassala test
-
-        try {
-            generalutil.getScreenshot(scenarioName);
-            updatedScenarioName=scenarioName;
-
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+//
+//        String s= result.getName();
+//       // String s=result.getTestContext().getName(); // Hassala test
+//
+//        try {
+//            generalutil.getScreenshot(scenarioName);
+//            updatedScenarioName=scenarioName;
+//
+//        } catch (IOException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        }
     }
 
     @Override

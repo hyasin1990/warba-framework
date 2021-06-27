@@ -1,11 +1,227 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/A/jameya/002-AcceptJameyaByFirstParticipant.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/D/WU/SendMoney.feature");
 formatter.feature({
-  "name": "As a first participant I should be able to join jameya",
+  "name": "As a user I should be able to select a beneficiary and send money",
   "description": "",
-  "keyword": "Feature",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Add new beneficiary and transfer money",
+  "description": "",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@AcceptJameya1"
+      "name": "@WUSendMoney"
+    }
+  ]
+});
+formatter.step({
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user enters username as \"\u003cusername\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user clicks on date of birth field",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user selects date of birth as \"\u003cday\u003e\" of \"\u003cmonth\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "security question screen displays",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user enters proper answer as \"\u003canswer\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user clicks on next button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "password screen displays",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user enters his password as \"\u003cpassword\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user clicks on next button After Password",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user invokes keyboard to enter otp",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user enters the amount as \"\u003cLogin OTP\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on next button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user selects \"\u003capp\u003e\" app",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user skips the tutorial",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on services tab",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user scrolls down to wu icon",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on wu icon",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on beneficiaries tab",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user searches for beneficiary \"\u003cbeneficiary name\u003e\" to start sending money",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user invokes menu",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on send money tab",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "fraud screen displays",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user accepts the fraud disclaimer",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user selects an account",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user selects a purpose as \"\u003cpurpose of transfer\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on next button to proceed with conversation",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks in transferred amount field",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user enters the amount as \"\u003camount\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on calculate button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on next button to proceed with conversation",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user checks the terms and conditions",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on next button to proceed with conversation",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on review button of add WU beneficiary",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on send money button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user enters his password to send money as \"\u003cpassword\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on verify button",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user gets redirected to success screen",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on done button under success",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on close button to get redirected to home",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on logout icon",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on untrust link",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user confirms unlinking the device",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "day",
+        "month",
+        "answer",
+        "password",
+        "Login OTP",
+        "app",
+        "beneficiary name",
+        "purpose of transfer",
+        "amount"
+      ]
+    },
+    {
+      "cells": [
+        "warba12",
+        "16",
+        "Jun",
+        "123",
+        "passw0rd",
+        "911911",
+        "Warba",
+        "Fadi",
+        "Saving/Investments",
+        "10"
+      ]
     }
   ]
 });
@@ -46,6 +262,16 @@ formatter.result({
 formatter.beforestep({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Add new beneficiary and transfer money",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@WUSendMoney"
+    }
+  ]
+});
 formatter.step({
   "name": "user clicks on login button",
   "keyword": "Then "
@@ -60,7 +286,7 @@ formatter.beforestep({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters username as \"jamuser31\"",
+  "name": "user enters username as \"warba12\"",
   "keyword": "When "
 });
 formatter.match({
@@ -93,10 +319,11 @@ formatter.match({
   "location": "steps.login.LoginSteps.userSelectsDateOfBirth(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:659)\n\tat java.util.ArrayList.get(ArrayList.java:435)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.intercept(InterceptorOfAListOfElements.java:49)\n\tat $java.util.ArrayList$$EnhancerByCGLIB$$b5855c01.get(\u003cgenerated\u003e)\n\tat util.Util.previousScroll(Util.java:495)\n\tat util.Util.selectDateBasedOnUserSelection(Util.java:210)\n\tat steps.login.LoginSteps.userSelectsDateOfBirth(LoginSteps.java:72)\n\tat ✽.user selects date of birth as \"16\" of \"Jun\"(file:///Users/abhishekjain/Documents/Practice%20Projects/iPhone/WarbaProject/src/test/java/features/D/WU/SendMoney.feature:12)\n",
+  "status": "failed"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on login button",
@@ -106,10 +333,10 @@ formatter.match({
   "location": "steps.login.LoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "security question screen displays",
@@ -119,10 +346,10 @@ formatter.match({
   "location": "steps.login.LoginSteps.security_question_screen_displays()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters proper answer as \"123\"",
@@ -132,10 +359,10 @@ formatter.match({
   "location": "steps.login.LoginSteps.user_enters_proper_answer(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on next button",
@@ -145,10 +372,10 @@ formatter.match({
   "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "password screen displays",
@@ -158,10 +385,10 @@ formatter.match({
   "location": "steps.login.LoginSteps.password_Screen_Displays()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters his password as \"passw0rd\"",
@@ -171,10 +398,10 @@ formatter.match({
   "location": "steps.login.LoginSteps.user_Enters_His_Password_As(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on next button After Password",
@@ -184,10 +411,62 @@ formatter.match({
   "location": "steps.login.LoginSteps.user_clicks_on_next_button_After_Password()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user invokes keyboard to enter otp",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_invokes_keyboard_to_enter_otp()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user enters the amount as \"911911\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.hassala.CreateSteps.user_Enters_The_Amount(java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on next button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user selects \"Warba\" app",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_selects_app(java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
 });
 formatter.step({
   "name": "user skips the tutorial",
@@ -197,303 +476,371 @@ formatter.match({
   "location": "steps.login.LoginSteps.userSkipsTheTutorial()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Accepting Jameya By First User",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@AcceptJameya1"
-    }
-  ]
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user clicks on my social circle tab",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "steps.jameya.CreateJameyaSteps.user_clicks_on_my_social_circle_tab()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user scrolls down to the available jameya",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.jameya.JoinJameyaSteps.user_scrolls_down_to_the_available_jameya()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on join button to join jameya",
+  "name": "user clicks on services tab",
   "keyword": "When "
 });
 formatter.match({
-  "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_join_button_to_join_jameya()"
+  "location": "steps.standingorder.CreateStandingSteps.When_user_clicks_on_services_()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user clicks on continue to confirm invitations",
+  "name": "user scrolls down to wu icon",
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.jameya.CreateJameyaSteps.user_Clicks_On_Continue_To_Confirm_Invitations()"
+  "location": "steps.wu.AddBeneficiarySteps.user_Scrolls_Down_To_transfer_money_Icon()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user clicks on keep going button",
+  "name": "user clicks on wu icon",
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_keep_going_button()"
+  "location": "steps.wu.AddBeneficiarySteps.user_Clicks_On_Transfer_Money_Icon()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user scrolls under terms and conditions screen",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "steps.jameya.CreateJameyaSteps.user_Scrolls_Under_Terms_And_Conditions_Screen()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user accepts terms and conditions",
+  "name": "user clicks on beneficiaries tab",
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.jameya.CreateJameyaSteps.user_Accepts_Terms_And_Conditions()"
+  "location": "steps.wu.AddBeneficiarySteps.user_clicks_on_beneficiaries_tab()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user selects an account",
+  "name": "user searches for beneficiary \"Fadi\" to start sending money",
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.hassala.TopupSteps.user_Selects_An_Account()"
+  "location": "steps.wu.SendMoneySteps.user_searches_for_beneficiary_to_start_sending_money(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user selects an account",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.hassala.TopupSteps.user_Selects_An_Account()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user confirms pay out day",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.jameya.CreateJameyaSteps.user_Confirms_PayOut_Day()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user selects a purpose of the jameya as \"Travel\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.jameya.CreateJameyaSteps.user_Selects_A_Purpose_Of_The_Jameya_As(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on upload a photo link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.jameya.CreateJameyaSteps.user_Clicks_On_Upload_A_Photo_Link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on choose from camera roll",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.hassala.CreateSteps.user_Clicks_On_Choose_From_CameraRoll()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user allows access permission if displayed",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.hassala.CreateSteps.user_Allows_Access_Permission()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on all photos tab from photos gallery",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.hassala.CreateSteps.user_Clicks_On_All_Photos_Tab_From_Photos_Gallery()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user selects any photo to replace the current",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.hassala.CreateSteps.user_Selects_Any_Photo_To_Replace_The_Current()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "clicks on choose to confirm it",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.hassala.CreateSteps.clicks_On_Choose_To_Confirm_It()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on join button to join jameya",
+  "name": "user invokes menu",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "steps.jameya.JoinJameyaSteps.user_clicks_on_join_button_to_join_jameya()"
+  "location": "steps.wu.SendMoneySteps.userInvokesMenu()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on send money tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.userClicksOnSendMoneyTab()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "fraud screen displays",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.fraudScreenDisplays()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user accepts the fraud disclaimer",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.userAcceptsTheFraudDisclaimer()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user selects an account",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.hassala.TopupSteps.user_Selects_An_Account()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user selects a purpose as \"Saving/Investments\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.jameya.CreateJameyaSteps.user_Selects_A_Purpose_As(java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on next button to proceed with conversation",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.AddBeneficiarySteps.user_clicks_on_next_button_to_proceed_with_conversation()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks in transferred amount field",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.userClicksInTransferredAmountField()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user enters the amount as \"10\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.hassala.CreateSteps.user_Enters_The_Amount(java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on calculate button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.userClicksOnCalculateButton()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on next button to proceed with conversation",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.AddBeneficiarySteps.user_clicks_on_next_button_to_proceed_with_conversation()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user checks the terms and conditions",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.userChecksTheTermsAndConditions()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on next button to proceed with conversation",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.AddBeneficiarySteps.user_clicks_on_next_button_to_proceed_with_conversation()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on review button of add WU beneficiary",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.AddBeneficiarySteps.user_clicks_on_review_button_of_add_WU_beneficiary()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on send money button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.userClicksOnSendMoneyButton()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user enters his password to send money as \"passw0rd\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.user_enters_his_password_to_send_money_as(java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on verify button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.wu.SendMoneySteps.userClicksOnVerifyButton()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
 });
 formatter.step({
   "name": "user gets redirected to success screen",
-  "keyword": "Then "
+  "keyword": "And "
 });
 formatter.match({
   "location": "steps.hassala.TopupSteps.user_Gets_Redirected_To_success_Screen()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user clicks on done",
+  "name": "user clicks on done button under success",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.jameya.JoinJameyaSteps.user_Clicks_On_Done()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on close button to get redirected to home",
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.hassala.CreateSteps.user_Clicks_On_Done()"
+  "location": "steps.hassala.TopupSteps.user_Clicks_On_Close_Button_To_Get_Redirected_To_Home()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.beforestep({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on back to navigate back to home screen",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "steps.hassala.CreateSteps.user_Clicks_On_Back_To_Navigate_Back_To_Home_Screen()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.beforestep({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on logout icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "steps.login.LoginSteps.user_clicks_on_logout_icon()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user clicks on untrust link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_Clicks_On_Untrust_Link()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.beforestep({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user confirms unlinking the device",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_Confirms_Unlinking_The_Device()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"

@@ -11,8 +11,8 @@ import lombok.extern.log4j.Log4j2;
 @CucumberOptions(
         features = "src/test/java/features",
         tags = {
-                "@AcceptJameya1"
-//                 + " or @CreateJameya"
+                "@WUSendMoney"
+ //                + " or @Login"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
 //                + " or @StartJameya"
@@ -33,6 +33,13 @@ import lombok.extern.log4j.Log4j2;
 //                 + " or @Withdraw"
 //                 + " or @BreakHassala"
 //                 + " or @BreakZeroHassala"
+//                 + " or @CreateSelfStanding"
+//                 + " or @AddWuBeneficiary"
+//                 + " or @WUSendMoney"
+
+
+
+
 
         },
         glue = {"steps"},
@@ -72,4 +79,9 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //                 + " or @Withdraw"
 //                 + " or @BreakHassala"
 //                 + " or @BreakZeroHassala"
+
+
+
+
+
 //                })

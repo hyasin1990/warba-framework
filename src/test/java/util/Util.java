@@ -7,39 +7,30 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
-import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static elements.hassala.BreakElements.hssalatSection;
-import static elements.hassala.CreateElements.*;
-import static elements.hassala.CreateElements.nineKey;
-import static elements.jameya.CreateJameyaElements.*;
-import static util.GeneralUtil.get;
-
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static io.appium.java_client.touch.WaitOptions.waitOptions;
-import static io.appium.java_client.touch.offset.PointOption.point;
-import static java.time.Duration.ofMillis;
+import static elements.hassala.BreakElements.hssalatSection;
+import static elements.hassala.CreateElements.*;
+import static elements.jameya.CreateJameyaElements.*;
+import static elements.login.LoginElements.datePicker;
+import static elements.login.LoginElements.keyDone;
+import static util.GeneralUtil.get;
 
 public class Util {
 
@@ -52,16 +43,21 @@ public class Util {
 
     // * * * Below are common utils * * * //
 
-    public void holdWhileNotDisplayed(WebElement element, int time) throws InterruptedException {
-        while (!element.isDisplayed())
-        {
-            hold(time);
-        }
+    /* For sleeping the thread */
+    public static void hold(int sec) throws InterruptedException {
+        Thread.sleep(sec);
     }
 
 /*
     To execute switch statement on amount string and enter number from keyboard accordingly
 */
+
+    public void holdWhileNotDisplayed(WebElement element, int time) throws InterruptedException {
+        while (!element.isDisplayed()) {
+            hold(time);
+        }
+    }
+
     public void enterAmountBaseOnGivenStringAmount(String amount) throws IOException {
         for (int i = 0; i < amount.length(); i++) {
             int j = Character.digit(amount.charAt(i), 10);
@@ -150,12 +146,6 @@ public class Util {
                 .moveTo(PointOption.point(x_stop, y_stop)).release().perform();
     }
 
-    /* For sleeping the thread */
-    public static void hold(int sec) throws InterruptedException {
-        Thread.sleep(sec);
-    }
-
-
     /* To extract double digits from a combination of digits and characters */
     public double digitsExtractor(String stringElement) {
         double doubleAmount = 0.0;
@@ -209,18 +199,35 @@ public class Util {
 
     /* For selecting birth date under login screen ...selectBirthDateBasedOnUserSelection*/
     public void selectDateBasedOnUserSelection(String day, String userMonth, List<WebElement> picker) throws InterruptedException {
-
+        hold(200);
         String sDay = picker.get(0).getAttribute("value");
         int intStandDay = Integer.parseInt(sDay);
         int userDay = Integer.parseInt(day);
+
         while (intStandDay != userDay) {
             if (intStandDay > userDay) {
-                previousScroll(picker, 0);
+                try {
+                    previousScroll(picker, 0);
+                } catch (StaleElementReferenceException ignored)
+                {
+                    System.out.println("Exception is Caught");
+                }
                 intStandDay -= 1;
                 hold(200);
-            } else if (intStandDay < userDay) {
-                nextScroll(picker, 0);
-                intStandDay += 1;
+
+            } else {
+                waitForElementToBeClickable(keyDone,20);
+                //nextScroll(picker, 0);
+                try
+                {
+                    nextScroll(picker, 0);
+                } catch (StaleElementReferenceException ignored)
+                {
+                    System.out.println("Exception is Caught");
+                }
+                System.out.println(intStandDay);
+                // waitForElementToBeClickable(keyDone,20);
+               intStandDay += 1;
                 hold(200);
             }
         }
@@ -346,6 +353,8 @@ public class Util {
         String standMonth = picker.get(0).getAttribute("value");
         int intUserMonth = 0;
         int intStandMonth = 0;
+
+
         switch (standMonth) {
             case "January":
                 intStandMonth = 1;
@@ -540,30 +549,73 @@ public class Util {
     public void selectFrequency(String frequency, WebElement weeklyElement, WebElement monthlyelement) {
         if (frequency.equals("Weekly")) {
             weeklyElement.click();
-        } else if (frequency.equals("Monthly")){
+        } else if (frequency.equals("Monthly")) {
             monthlyelement.click();
         }
     }
 
-    public void selectPurpose(String userPurpose)
-    {
-        String standPurpose=purposePicker.get(0).getAttribute("value");
-        while (!standPurpose.equals(userPurpose))
-        {
-            nextScroll(purposePicker,0);
-           standPurpose=purposePicker.get(0).getAttribute("value");
+    public void selectPurpose(String userPurpose) {
+        String standPurpose = purposePicker.get(0).getAttribute("value");
+        while (!standPurpose.equalsIgnoreCase(userPurpose)) {
+
+            try {
+                hold(20);
+                nextScroll(purposePicker, 0);
+                hold(20);
+
+            } catch (InvalidElementStateException | InterruptedException ignored)
+            {
+                System.out.println("Exception is caught");
+            }
+            standPurpose = purposePicker.get(0).getAttribute("value");
         }
     }
 
-    public void selectParticipants()
-    {
-        for (int i=6;i<9;i++)
-        {
+    public void selectParticipants() {
+        for (int i = 6; i < 9; i++) {
             particiMonthSelector.get(i).click();
-            waitForElementToBeClickable(cancelLink,30);
+            waitForElementToBeClickable(cancelLink, 30);
             particiImage.get(1).click();
         }
 
+    }
+
+    public void selectStandingOrderDate(int day, String month, int year) {
+        int standDay = Integer.parseInt(datePicker.get(0).getAttribute("value"));
+        int standYear = Integer.parseInt(datePicker.get(2).getAttribute("value"));
+        while (standYear != year) {
+            nextScroll(datePicker, 2);
+            standYear += 1;
+        }
+        while (day != standDay) {
+            if (day < standDay) {
+                previousScroll(datePicker, 0);
+                standDay -= 1;
+            } else {
+                nextScroll(datePicker, 0);
+                standDay += 1;
+            }
+        }
+        HashMap<Integer, String> monthsMap = new HashMap<Integer, String>();
+        monthsMap.put(1, "January");
+        monthsMap.put(2, "February");
+        monthsMap.put(3, "March");
+        monthsMap.put(4, "April");
+        monthsMap.put(5, "May");
+        monthsMap.put(6, "June");
+        monthsMap.put(7, "July");
+        monthsMap.put(8, "August");
+        monthsMap.put(9, "September");
+        monthsMap.put(10, "October");
+        monthsMap.put(11, "November");
+        monthsMap.put(12, "December");
+
+        int j = 1;
+        while (!monthsMap.get(j).contains(month)) {
+            nextScroll(datePicker, 1);
+            j += 1;
+        }
+        keyDone.click();
     }
 
 
@@ -879,7 +931,7 @@ public class Util {
 
     }
 
-    public void andrSelectParticipants () {
+    public void andrSelectParticipants() {
         List<WebElement> list = driver.findElementsById("com.safat.warbaib.uat:id/tvMonthName");
         for (int i = 0; i < list.size(); i++) {
             list.get(i).click();
@@ -901,6 +953,23 @@ public class Util {
         Point point = element.getLocation();
         int x = point.getX();
         return x;
+    }
+
+    public void monthsMap ()
+    {
+        HashMap<Integer, String> dateMap = new HashMap<Integer, String>();
+        dateMap.put(1, "January");
+        dateMap.put(2, "February");
+        dateMap.put(3, "March");
+        dateMap.put(4, "April");
+        dateMap.put(5, "May");
+        dateMap.put(6, "June");
+        dateMap.put(7, "July");
+        dateMap.put(8, "August");
+        dateMap.put(9, "September");
+        dateMap.put(10, "October");
+        dateMap.put(11, "November");
+        dateMap.put(12, "December");
     }
 
 }

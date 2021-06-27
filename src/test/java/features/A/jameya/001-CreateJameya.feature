@@ -27,7 +27,7 @@ Feature: As a host I should be able to create jameya
     And user accepts terms and conditions
     Then create jameya screen displays
     When user enters a name for jameya as "Test Jam3eya"
-    And user selects a purpose of the jameya as "Travel"
+    And user selects a purpose as "Travel"
     And user clicks on upload a photo link
     And user clicks on choose from camera roll
     And user allows access permission if displayed
