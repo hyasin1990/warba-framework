@@ -16,6 +16,9 @@ public class AddBeneficiaryElements {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
+    @iOSXCUITFindBy(accessibility = "Western Union")
+    public static WebElement wuIcon;
+
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Beneficiaries']")
     public static WebElement BeneficiariesTab;
 
@@ -52,8 +55,6 @@ public class AddBeneficiaryElements {
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Review']")
     public static WebElement reviewWuAddBeneficiary;
-
-
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Add Beneficiary']")
     public static WebElement addBeneficiaryButton;

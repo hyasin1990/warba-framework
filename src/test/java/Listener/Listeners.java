@@ -12,10 +12,11 @@ import java.io.IOException;
 import static steps.Hooks.scenarioName;
 
 
-public class Listeners implements ITestListener{
+public class Listeners implements ITestListener {
     public static String updatedScenarioName;
     GeneralUtil generalutil = new GeneralUtil();
     Hooks hooks = new Hooks();
+
     @Override
     public void onTestStart(ITestResult result) {
         // TODO Auto-generated method stub
@@ -32,8 +33,6 @@ public class Listeners implements ITestListener{
     @Override
     public void onTestFailure(ITestResult result) {
         // TODO Auto-generated method stub
-
-//
 //        String s= result.getName();
 //       // String s=result.getTestContext().getName(); // Hassala test
 //
@@ -67,7 +66,6 @@ public class Listeners implements ITestListener{
         // TODO Auto-generated method stub
 
     }
-
 
 
 }

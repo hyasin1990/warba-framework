@@ -52,7 +52,6 @@ public class LoginSteps {
     loginBtn.click();
     }
 
-
     @When("^user enters username as \"(.*)\"$")
     public void user_Enters_Proper_Username_As(String username) {
         usernameField.click();

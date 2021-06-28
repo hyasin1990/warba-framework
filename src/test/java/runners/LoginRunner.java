@@ -9,14 +9,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/features",
-        plugin = { "pretty", "html:target/Cucumber-html-report"},
+        plugin = {"pretty", "html:target/Cucumber-html-report"},
         stepNotifications = true,
         glue = "steps",
         dryRun = false,
         monochrome = true,
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
         tags = {
-                "@WUSendMoney"
+                "@AddWuBeneficiary"
                 //                + " or @Login"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
@@ -41,6 +41,10 @@ import org.junit.runner.RunWith;
 //                 + " or @CreateSelfStanding"
 //                 + " or @AddWuBeneficiary"
 //                 + " or @WUSendMoney"
+//                 + " or @TransferFromKnet"
+
+
+
         })
 
 //        tags = {

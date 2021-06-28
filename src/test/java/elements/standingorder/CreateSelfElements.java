@@ -20,8 +20,7 @@ public class CreateSelfElements {
     @iOSXCUITFindBy(accessibility = "Standing Orders")
     public static WebElement standingIcon;
 
-    @iOSXCUITFindBy(accessibility = "Western Union")
-    public static WebElement wuIcon;
+
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Create transfer Standing Orders']")
     public static WebElement createStandingTab;
