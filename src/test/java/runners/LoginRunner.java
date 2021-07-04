@@ -1,10 +1,8 @@
 package runners;
 
 
-import com.vimalselvam.cucumber.listener.ExtentCucumberFormatter;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -16,8 +14,8 @@ import org.junit.runner.RunWith;
         monochrome = true,
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
         tags = {
-                "@AddWuBeneficiary"
-                //                + " or @Login"
+                "@TransferFromKnet"
+//                + " or @Login"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
 //                + " or @StartJameya"
@@ -42,9 +40,6 @@ import org.junit.runner.RunWith;
 //                 + " or @AddWuBeneficiary"
 //                 + " or @WUSendMoney"
 //                 + " or @TransferFromKnet"
-
-
-
         })
 
 //        tags = {

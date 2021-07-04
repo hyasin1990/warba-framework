@@ -4,7 +4,7 @@ Feature: As a user, I should be able to transfer money to myself from a knet car
     Given send notification was shown to user and he allows it
     When user swipes under get started screen and hits get started button
     Then user clicks on login button
-    When user enters username as "warba13"
+    When user enters username as "warba06"
     And user clicks on date of birth field
     And user selects date of birth as "16" of "Jun"
     And user clicks on login button
@@ -45,10 +45,6 @@ Feature: As a user, I should be able to transfer money to myself from a knet car
       Then user clicks on logout icon
       And user clicks on untrust link
       Then user confirms unlinking the device
-
-
-
-
 
 
 

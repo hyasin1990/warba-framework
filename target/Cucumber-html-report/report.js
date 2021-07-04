@@ -1,241 +1,8 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/D/WU/AddBeneficiary.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/transferMoney/TransferToSelfFromKnet.feature");
 formatter.feature({
-  "name": "As a user, I should be able to add new WU beneficiary to transfer money",
+  "name": "As a user, I should be able to transfer money to myself from a knet card.",
   "description": "",
   "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "name": "Add new beneficiary and transfer money",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@AddWuBeneficiary"
-    }
-  ]
-});
-formatter.step({
-  "name": "user clicks on login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user enters username as \"\u003cusername\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user clicks on date of birth field",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user selects date of birth as \"\u003cday\u003e\" of \"\u003cmonth\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "security question screen displays",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user enters proper answer as \"\u003canswer\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user clicks on next button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "password screen displays",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user enters his password as \"\u003cpassword\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user clicks on next button After Password",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user invokes keyboard to enter otp",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters the amount as \"\u003cLogin OTP\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on next button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user selects \"\u003capp\u003e\" app",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user skips the tutorial",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user clicks on services tab",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user scrolls down to wu icon",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on wu icon",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on beneficiaries tab",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on add new beneficiary button",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user fills in first name as \"\u003cfirstName\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user fills in middle name as \"\u003cmiddleName\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user fills in last name as \"\u003clastName\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on next button to proceed with conversation",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user clicks on select country link",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "user clicks in search field to search for country",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user searches country as \"\u003ccountry\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user selects the searched country",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on select nationality link",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user searches for nationality as \"\u003cnationality\u003e\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user selects the searched country",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks in description field and fills description as \"\u003cdescription\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on review button of add WU beneficiary",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user clicks on add beneficiary button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user gets redirected to otp screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user clicks on the OTP field",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user fills in beneficiary OTP as \"\u003cBenef OTP\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on activate button",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user gets redirected to success screen",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on done button under success",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user clicks on close button to get redirected to home",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on logout icon",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user clicks on untrust link",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user confirms unlinking the device",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "day",
-        "month",
-        "answer",
-        "password",
-        "app",
-        "firstName",
-        "middleName",
-        "lastName",
-        "country",
-        "nationality",
-        "description",
-        "Login OTP",
-        "Benef OTP"
-      ]
-    },
-    {
-      "cells": [
-        "testuser12",
-        "16",
-        "Jun",
-        "123",
-        "passw0rd",
-        "Warba",
-        "saliah",
-        "rahamath",
-        "basha",
-        "united arab emirates",
-        "Qatar",
-        "Automated Description",
-        "911911",
-        "111111"
-      ]
-    }
-  ]
 });
 formatter.background({
   "name": "",
@@ -274,16 +41,6 @@ formatter.result({
 formatter.beforestep({
   "status": "passed"
 });
-formatter.scenario({
-  "name": "Add new beneficiary and transfer money",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@AddWuBeneficiary"
-    }
-  ]
-});
 formatter.step({
   "name": "user clicks on login button",
   "keyword": "Then "
@@ -298,7 +55,7 @@ formatter.beforestep({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters username as \"testuser12\"",
+  "name": "user enters username as \"warba06\"",
   "keyword": "When "
 });
 formatter.match({
@@ -368,4 +125,437 @@ formatter.step({
 });
 formatter.match({
   "location": "steps.login.LoginSteps.user_enters_proper_answer(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on next button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "password screen displays",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.password_Screen_Displays()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters his password as \"passw0rd\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_Enters_His_Password_As(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on next button After Password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_clicks_on_next_button_After_Password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user invokes keyboard to enter otp",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_invokes_keyboard_to_enter_otp()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters the amount as \"911911\u003e\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.hassala.CreateSteps.user_Enters_The_Amount(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on next button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_clicks_on_next_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects \"Warba\" app",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_selects_app(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user skips the tutorial",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.userSkipsTheTutorial()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Transfer Money From Knet To Self",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TransferFromKnet"
+    }
+  ]
+});
+formatter.step({
+  "name": "user clicks on services tab",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.standingorder.CreateStandingSteps.When_user_clicks_on_services_()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on transfer money Icon",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userClicksOnTransferMoneyIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects my self beneficiary",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userSelectsMySelfBeneficiary()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects knet as an account from",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userSelectsKnetAsAnAccountFrom()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects an account",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.hassala.TopupSteps.user_Selects_An_Account()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user fills in an amount to transfer as \"900\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userFillsInAnAmountToTransfer(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user fills in optional description as \"description\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userFillsInOptionalDescriptionAs(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks transfer button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userClicksTransferButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user invokes banks list",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userInvokesBanksList()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects a purpose as \"Knet Test Card [KNET1]\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.jameya.CreateJameyaSteps.user_Selects_A_Purpose_As(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user fills in card number as \"0000000001\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userFillsInCardNumberAs(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user invokes expiration month list",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userInvokesExpirationMonthList()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects a purpose as \"09\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.jameya.CreateJameyaSteps.user_Selects_A_Purpose_As(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user invokes expiration year list",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userInvokesExpirationYearList()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects a purpose as \"2021\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.jameya.CreateJameyaSteps.user_Selects_A_Purpose_As(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user fills in pin as \"1234\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userFillsInPinAs(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on submit button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userClicksOnSubmitButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on confirm button of knet",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userClicksOnConfirmButtonOfKnet()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user gets redirected to transfer successful screen",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userGetsRedirectedToTransferSuccessfulScreen()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on X icon",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.transfermoney.TransferToSelfFromKnetSteps.userClicksOnXIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on logout icon",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_clicks_on_logout_icon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on untrust link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_Clicks_On_Untrust_Link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user confirms unlinking the device",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.login.LoginSteps.user_Confirms_Unlinking_The_Device()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });

@@ -13,14 +13,10 @@ L
 profiles.xml,8/b/8b0918dd317df8166c1c0c3fe73c94e271bc4679
 N
 src/test/java/steps/Hooks.java,1/d/1d15d0be5fcf9b0ee3887e76bcdbc6ac312000c8
-V
-&src/test/java/runners/LoginRunner.java,b/d/bda2f3a93b12794a58d55585e821b7f313ec1a36
 Z
 *src/test/java/features/login/login.feature,e/9/e93f012363054db151f8deb57a05d6825e2ad007
 L
 src/test/java/util/Util.java,d/0/d0ad6766a8e630730ac406ea2a4165146344533c
-Y
-)src/test/java/steps/login/LoginSteps.java,2/3/235bd2a5b137ea3c9d4e03e4f23995fd81bb1ac5
 _
 /src/test/java/elements/login/LoginElements.java,d/1/d164a81f1ef79824b62b0e4e9e4f91a6a864fb6f
 a
@@ -59,8 +55,6 @@ _
 /src/test/java/steps/hassala/AddSaveAsSteps.java,0/a/0a1ee475444b9ca05fd52d6b98f9d2fe8bc3764d
 _
 /src/test/java/steps/hassala/AddKhardaSteps.java,f/6/f6ab494e1793ab108ad5aa7205b1956c262e75ae
-U
-%src/test/java/runners/TestRunner.java,6/8/683416d30a7936e18b925a37c73fb207dbb02b81
 :
 
 testng.xml,5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022
@@ -78,12 +72,8 @@ c
 3src/test/java/elements/hassala/ViewAllElements.java,8/6/86cb30ce2496e8746e505e7bcf6744b0ce9a9cb4
 b
 2src/test/java/steps/hassala/TransactionsSteps.java,5/1/5161dc58a2507cad2899754de1a01b0fd55df72b
-\
-,src/test/java/screens/login/LoginScreen.java,0/c/0c318f8a74bc48686f7beb9c8b5a500018add50e
 Q
 !src/test/AppProperties.properties,7/b/7b9a838e089c1137c6b55f1dad9478f2c3536fa5
-L
-src/test/Logs/AppiumLogs.txt,3/4/3487289fef2a64ce70f5c8704320bad5beaca554
 U
 %src/test/java/Listener/Listeners.java,0/7/07caa1052b3040d37eac8b42e35e50012726e082
 \
@@ -146,3 +136,13 @@ q
 Asrc/test/java/features/C/standingorder/CreateSelfStanding.feature,5/5/55f4675a8bc4a1086ff70d3f04a0d6f87ac856dc
 j
 :src/test/java/steps/standingorder/CreateStandingSteps.java,1/8/185e10ecc803f6560052182ddcde19a4143f1d93
+e
+5src/test/java/elements/wu/AddBeneficiaryElements.java,a/7/a74b82af6b916725033c1036efabb99b90c48880
+o
+?src/test/java/elements/transfermoney/TransferMoneyElements.java,0/3/034adaf4cde17deb0b2fec1b3eb1b8afe6b0d763
+Z
+*src/test/java/steps/wu/SendMoneySteps.java,7/4/74581806f0b4a550b177aaf051bb014d2f2d6f82
+`
+0src/test/java/elements/wu/SendMoneyElements.java,b/4/b47776b27e859b26aef24b9c107f75c879845a0c
+Y
+)src/test/java/steps/login/LoginSteps.java,2/3/235bd2a5b137ea3c9d4e03e4f23995fd81bb1ac5

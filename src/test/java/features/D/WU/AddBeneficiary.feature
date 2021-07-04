@@ -55,5 +55,5 @@ Feature: As a user, I should be able to add new WU beneficiary to transfer money
 
 
     Examples:
-      | username   | day | month | answer | password | app   | firstName | middleName | lastName | country              | nationality | description           | Login OTP | Benef OTP |
-      | testuser12 | 16  | Jun   | 123    | passw0rd | Warba | saliah      | rahamath     | basha    | united arab emirates | Qatar       | Automated Description | 911911    | 111111    |
+      | username | day | month | answer | password | app   | firstName | middleName | lastName    | country      | nationality | description           | Login OTP | Benef OTP |
+      | warba13  | 16  | Jun   | 123    | passw0rd | Warba | JEYSON    | RAJU       | CHILAKAPATI | Saudi Arabia | Kuwait      | Automated Description | 911911    | 111111    |

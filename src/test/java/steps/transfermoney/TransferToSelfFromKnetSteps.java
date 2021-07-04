@@ -76,6 +76,7 @@ public class TransferToSelfFromKnetSteps {
 
     @When("user invokes banks list")
     public void userInvokesBanksList() {
+        util.waitForElementToBeClickable(banksList,20);
         banksList.click();
     }
 
