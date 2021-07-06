@@ -336,11 +336,22 @@ public class Util {
         }
         while (intStandMonth != intUserMonth) {
             if (intStandMonth > intUserMonth) {
-                previousScroll(picker, 1);
+                try {
+                    previousScroll(picker, 1);
+                } catch (StaleElementReferenceException ignored)
+                {
+                    System.out.println("Exception is Caught");
+                }
                 intStandMonth -= 1;
                 hold(200);
-            } else if (intStandMonth < intUserMonth) {
-                nextScroll(picker, 1);
+            } else {
+                try
+                {
+                    nextScroll(picker, 1);
+                } catch (StaleElementReferenceException ignored)
+                {
+                    System.out.println("Exception is Caught");
+                }
                 intStandMonth += 1;
                 hold(200);
             }
@@ -554,20 +565,19 @@ public class Util {
         }
     }
 
-    public void selectPurpose(String userPurpose) {
-        String standPurpose = purposePicker.get(0).getAttribute("value");
-        while (!standPurpose.equalsIgnoreCase(userPurpose)) {
-
+    public void selectItem(String userItem) {
+        String standPurpose = itemPicker.get(0).getAttribute("value");
+        while (!standPurpose.equalsIgnoreCase(userItem)) {
             try {
                 hold(20);
-                nextScroll(purposePicker, 0);
+                nextScroll(itemPicker, 0);
                 hold(20);
 
             } catch (InvalidElementStateException | InterruptedException ignored)
             {
                 System.out.println("Exception is caught");
             }
-            standPurpose = purposePicker.get(0).getAttribute("value");
+            standPurpose = itemPicker.get(0).getAttribute("value");
         }
     }
 

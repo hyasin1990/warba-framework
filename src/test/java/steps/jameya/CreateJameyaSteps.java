@@ -4,17 +4,13 @@ import elements.hassala.CreateElements;
 import elements.jameya.CreateJameyaElements;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
-import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.bson.io.BsonOutput;
 import org.openqa.selenium.By;
-import org.openqa.selenium.InvalidElementStateException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import steps.Hooks;
 import util.Util;
@@ -24,10 +20,6 @@ import static util.GeneralUtil.get;
 
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
 
 import static elements.hassala.CreateElements.screenBack;
 import static elements.jameya.CreateJameyaElements.*;
@@ -105,15 +97,15 @@ public class CreateJameyaSteps {
 
     }
 
-    @And("^user selects a purpose as \"(.*)\"$")
-    public void user_Selects_A_Purpose_As(String purpose) throws InterruptedException, IOException {
+    @And("^user selects an item as \"(.*)\"$")
+    public void user_Selects_An_Item_As(String purpose) throws InterruptedException, IOException {
 
 
         // *** TRY TO INVOKE THE PREVIOUS LIST ONCE AGAIN AND CONFIRM IT THEN REOPEN THIS LIST
         if (get("TESTING_PLATFORM").equals("IOS")) {
             hold(20);
             util.clickOnElementIfDisplayed(purposeList);
-            util.selectPurpose(purpose);
+            util.selectItem(purpose);
             keyDone.click();
         } else if (get("TESTING_PLATFORM").equals("Android")) {
             andrDone.click();

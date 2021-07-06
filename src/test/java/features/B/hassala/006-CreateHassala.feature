@@ -3,9 +3,10 @@ Feature: As a user, I should be able to create new Hassala
   Background:
     Given send notification was shown to user and he allows it
     When user swipes under get started screen and hits get started button
+
     Then user clicks on login button
-    When user enters username as "jamuser28"
-    And  user clicks on date of birth field
+    When user enters username as "jamuser21"
+    And user clicks on date of birth field
     And user selects date of birth as "16" of "Jun"
     And user clicks on login button
     Then security question screen displays
@@ -14,6 +15,9 @@ Feature: As a user, I should be able to create new Hassala
     Then password screen displays
     When user enters his password as "passw0rd"
     And user clicks on next button After Password
+    And user invokes keyboard to enter otp
+    And user enters the amount as "911911"
+    And user clicks on next button
     And user selects "Warba" app
     Then user skips the tutorial
 

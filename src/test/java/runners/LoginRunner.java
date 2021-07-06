@@ -14,13 +14,14 @@ import org.junit.runner.RunWith;
         monochrome = true,
         snippets = io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE,
         tags = {
-                "@TransferFromKnet"
-//                + " or @Login"
+                "@LinkHassala"
+                + " or @UnLinkHassala"
 //                 + " or @AcceptJameya1"
 //                + " or @AcceptJameya2"
 //                + " or @StartJameya"
 //                + " or @DeleteJameya"
 //                 + " or @CreateHassala"
+//                 + " or @LinkHassala"
 //                 + " or @Topup"
 //                 + " or @AddKharda"
 //                 + " or @RemoveKharda"
@@ -40,6 +41,13 @@ import org.junit.runner.RunWith;
 //                 + " or @AddWuBeneficiary"
 //                 + " or @WUSendMoney"
 //                 + " or @TransferFromKnet"
+//                 + " or @UnLinkHassala"
+
+
+
+
+
+
         })
 
 //        tags = {

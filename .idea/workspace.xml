@@ -4,26 +4,60 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e4c57cd-9f32-4d81-8026-e1f0492a5806" name="Default Changelist" comment="Knet">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04a6345f1b197feecea02b24d1b1e55830664945" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04a6345f1b197feecea02b24d1b1e55830664945" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c318f8a74bc48686f7beb9c8b5a500018add50e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/683416d30a7936e18b925a37c73fb207dbb02b81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/929541cd44faa8ee39af2878c68fee4fccdd45a4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/929541cd44faa8ee39af2878c68fee4fccdd45a4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bda2f3a93b12794a58d55585e821b7f313ec1a36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c00dbfde564620169dfbb4830205adca0da6eb13" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c00dbfde564620169dfbb4830205adca0da6eb13" afterDir="false" />
+    <list default="true" id="0e4c57cd-9f32-4d81-8026-e1f0492a5806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/hassala/LinkElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/023-UnLinkHassala.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/hassala/LinkHassalaSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/hassala/UnLinkHassalaSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/235bd2a5b137ea3c9d4e03e4f23995fd81bb1ac5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/3487289fef2a64ce70f5c8704320bad5beaca554" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3696d7852576b27bca17b7f874c688cbc18dc82c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a42f543148f88dc4ef33cff64abde3fe55db934" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4efea9d97004cca177c9e2959f05415f05f730b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/525709d632c4d9549a9752d65e8330dc2263eb4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5371aca3c4b16f7596343cd696d0f5875a39d017" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55f4675a8bc4a1086ff70d3f04a0d6f87ac856dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5916fbdff5e34ae9589539f8dbb637561b3ba470" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/780f8b7850315589b998efd0e2802d54ab61c2e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a2f2a91565f46685cfc3710d8952fb6ec09fb83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b0918dd317df8166c1c0c3fe73c94e271bc4679" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a601177cb95ddeb1f64c9dfffed74b53f837ef91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1442abab0e798ac2a7a84bae1dca305479079fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4db2b13fc2f3b814cdf74ae1b3ea82f16635f17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c57784caf4cd30f6cabdbe5fe18d3c0c0ddebe76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c94481f167ae43d097661b4dad87f95770ad81e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9bae749267852b5c4f37cdf236a752945a425e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0ad6766a8e630730ac406ea2a4165146344533c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d164a81f1ef79824b62b0e4e9e4f91a6a864fb6f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2be2592b4eece3aa46ea01b256f76911a884d3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da6b1076554e757e4b15d4c0cd72ee34cd1e3699" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e93f012363054db151f8deb57a05d6825e2ad007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6ab494e1793ab108ad5aa7205b1956c262e75ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffbab9b5957fc2433a20a343f73fa865fa358d9a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Logs/AppiumLogs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/D/WU/AddBeneficiary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/D/WU/AddBeneficiary.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/jameya/CreateJameyaElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/jameya/CreateJameyaElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/B/hassala/006-CreateHassala.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/B/hassala/006-CreateHassala.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/D/WU/SendMoney.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/D/WU/SendMoney.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/transferMoney/TransferToSelfFromKnet.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/transferMoney/TransferToSelfFromKnet.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/LoginRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/LoginRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/transfermoney/TransferToSelfFromKnetSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/transfermoney/TransferToSelfFromKnetSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/hassala/TopupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/hassala/TopupSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/jameya/CreateJameyaSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/login/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/wu/AddBeneficiarySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/wu/AddBeneficiarySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/WarbaProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/jameya/CreateJameyaElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/jameya/CreateJameyaElements.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/LoginRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/transfermoney/TransferToSelfFromKnetSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/transfermoney/TransferToSelfFromKnetSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/hassala/TopupSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/hassala/TopupSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/jameya/CreateJameyaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/jameya/CreateJameyaSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/wu/AddBeneficiarySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/wu/AddBeneficiarySteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Util.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +79,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1Zq7925yOsepVLhDheeTAjwjvfU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,7 +97,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/features/C/standingorder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/features/B/hassala" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,25 +105,12 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/test/java/steps/hassala/TopupSteps.java" />
   </component>
   <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="Listener" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/features/B/hassala" />
       <recent name="$PROJECT_DIR$/src/test/java/features/C/standingorder" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/test/java/base" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="elements.transfermoney" />
-      <recent name="steps.transfermoney" />
-      <recent name="elements.wu" />
-      <recent name="steps.standingorder" />
-      <recent name="runners" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/features/D/WU" />
@@ -89,6 +118,19 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test/Logs" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Listener" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="steps.hassala" />
+      <recent name="elements.hassala" />
+      <recent name="elements.transfermoney" />
+      <recent name="steps.transfermoney" />
+      <recent name="elements.wu" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -270,6 +312,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585554615505</updated>
     </task>
+    <task id="LOCAL-00001" summary="Knet">
+      <created>1625390753583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625390753583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -278,6 +328,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Knet" />
     <option name="LAST_COMMIT_MESSAGE" value="Knet" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WarbaProject$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1590232263522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

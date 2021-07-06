@@ -46,7 +46,7 @@ public class CreateJameyaElements {
     public static WebElement jameyaNameTxt;
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypePickerWheel")
-    public static List<WebElement> purposePicker;
+    public static List<WebElement> itemPicker;
 
     @iOSXCUITFindBy(accessibility = "Upload A Photo (Optional)")
     public static WebElement uploadPhotoLink;

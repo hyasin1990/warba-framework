@@ -32,7 +32,7 @@ Feature: As a user I should be able to select a beneficiary and send money
     When fraud screen displays
     Then user accepts the fraud disclaimer
     And user selects an account
-    And user selects a purpose as "<purpose of transfer>"
+    And user selects an item as "<purpose of transfer>"
     And user clicks on next button to proceed with conversation
     Then user clicks in transferred amount field
     And user enters the amount as "<amount>"

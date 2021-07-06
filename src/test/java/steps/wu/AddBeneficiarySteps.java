@@ -56,25 +56,21 @@ public class AddBeneficiarySteps {
     @When("user clicks on add new beneficiary button")
     public void user_Clicks_On_AddNewBeneficiary_Button() {
         //util.waitForElementToBeClickable(addNewBeneficiaryButton, 40);
-
-        for (int i=0;i<10;i++)
-        {
+        for (int i = 0; i < 10; i++) {
             try {
-                if (addNewBeneficiaryButton.isDisplayed())
-                {
+                if (addNewBeneficiaryButton.isDisplayed()) {
                     System.out.println("it is displayed");
                     addNewBeneficiaryButton.click();
-                    i =10;
-                    System.out.println("Getting out the loop");
+                    //i = 10;
+                    break;
+                    //System.out.println("Getting out the loop");
                 }
-                System.out.println("I value is "+ i);
-            } catch (StaleElementReferenceException ignored)
-            {
+                System.out.println("I value is " + i);
+            } catch (StaleElementReferenceException ignored) {
                 System.out.println("Add Beneficiary Exception Is Caught");
                 System.out.println("Iterating");
             }
         }
-       // addNewBeneficiaryButton.click();
     }
 
     @And("^user fills in first name as \"(.*)\"$")
@@ -150,8 +146,8 @@ public class AddBeneficiarySteps {
 
     @And("user clicks on add beneficiary button")
     public void user_Clicks_On_Add_Beneficiary_Button() throws InterruptedException {
-        util.swipeByCoordinates(142,757,143,758,1);
-       hold(300);
+        util.swipeByCoordinates(142, 757, 143, 758, 1);
+        hold(300);
     }
 
     @Then("user gets redirected to otp screen")
@@ -166,7 +162,8 @@ public class AddBeneficiarySteps {
 //        y 296
         otpField.click();
         otpField.click();
-}
+    }
+
     @And("^user fills in beneficiary OTP as \"(.*)\"$")
     public void user_fills_in_beneficiary_OTP(String OTP) throws IOException {
         util.enterAmountBaseOnGivenStringAmount(OTP);

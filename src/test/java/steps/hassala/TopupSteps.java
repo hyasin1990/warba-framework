@@ -35,11 +35,9 @@ public class TopupSteps {
 
     @And("user skips hassala tutorial if it displays")
     public void user_Skips_Hassala_Tutorial_If_It_Displays() throws IOException {
-
         if (get("NO_RESET").equals("false")) {
             tutSkip.click();
         }
-
         //  if (get("TESTING_PLATFORM").equals("IOS"))
         //   {
         util.waitForElementToBeClickable(topupIcon, 30);
