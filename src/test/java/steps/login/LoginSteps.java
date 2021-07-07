@@ -6,6 +6,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.mk_latn.No;
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import steps.Hooks;
 import util.Util;
@@ -47,6 +49,15 @@ public class LoginSteps {
 
     @Then("user clicks on login button")
     public void user_clicks_on_login_button() {
+
+        try {
+            unlinkDevice.click();
+            unlinkConfirm.click();
+        } catch (NoSuchElementException ignored)
+        {
+
+        }
+
         loginBtn.click();
     }
 

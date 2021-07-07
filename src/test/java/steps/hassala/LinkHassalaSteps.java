@@ -8,6 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.commons.codec.language.bm.Rule;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import steps.Hooks;
 import util.Util;
@@ -36,8 +37,26 @@ public class LinkHassalaSteps {
 
     @Given("user clicks on link with hassala kids tab")
     public void user_clicks_on_link_with_hassala_kids_tab() {
-        util.waitForElementToBeClickable(linkHassalaTab, 20);
-        linkHassalaTab.click();
+
+        try {
+            for (int i=0;i<10;i++)
+            {
+                if (linkHassalaTab.isDisplayed())
+                {
+                    System.out.println("Element is displayed, clicking on the element");
+                    util.waitForElementToBeClickable(linkHassalaTab, 20);
+                    linkHassalaTab.click();
+                    i=10;
+                }
+            }
+
+        } catch (StaleElementReferenceException ignored)
+        {
+            System.out.println("Exception is caught");
+        }
+
+       // util.waitForElementToBeClickable(linkHassalaTab, 20);
+      //  linkHassalaTab.click();
     }
 
 

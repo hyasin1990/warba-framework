@@ -31,7 +31,7 @@ Feature: As a user, I should be able to link hassala with a kid CID
       Given user clicks on link with hassala kids tab
       When user clicks yes link now button
       And user scrolls down to accept terms and conditions
-      Then user fills in new CID as "321010168015"
+      Then user fills in new CID as "321010195398"
       And user clicks on next button to proceed with linking
       Then user fills in kid name as "Nasser"
       And user selects gender as "boy"
